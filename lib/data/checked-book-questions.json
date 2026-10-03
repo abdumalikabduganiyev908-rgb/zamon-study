@@ -1,0 +1,3797 @@
+[
+  {
+    "id": "book-u1-mc-1",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": null,
+    "dimension": "context",
+    "question": "bad or hurting others",
+    "options": [
+      "afraid",
+      "clever",
+      "cruel",
+      "hunt"
+    ],
+    "correctAnswer": "cruel",
+    "acceptedAnswers": [
+      "cruel"
+    ],
+    "explanation": "bad or hurting others: bad or hurting others (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-2",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": null,
+    "dimension": "context",
+    "question": "at last or at the end",
+    "options": [
+      "angry",
+      "clever",
+      "finally",
+      "reply"
+    ],
+    "correctAnswer": "finally",
+    "acceptedAnswers": [
+      "finally"
+    ],
+    "explanation": "at last or at the end: at last or at the end (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-3",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": null,
+    "dimension": "context",
+    "question": "to try to fight or hurt",
+    "options": [
+      "attack",
+      "middle",
+      "pleased",
+      "trick"
+    ],
+    "correctAnswer": "attack",
+    "acceptedAnswers": [
+      "attack"
+    ],
+    "explanation": "to try to fight or hurt: to try to fight or hurt (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-4",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": null,
+    "dimension": "context",
+    "question": "to not let others see",
+    "options": [
+      "agree",
+      "hide",
+      "safe",
+      "well"
+    ],
+    "correctAnswer": "hide",
+    "acceptedAnswers": [
+      "hide"
+    ],
+    "explanation": "to not let others see: to not let others see (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-5",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": null,
+    "dimension": "context",
+    "question": "the lowest part",
+    "options": [
+      "bottom",
+      "lot",
+      "moment",
+      "promise Choose the right definition for the given word."
+    ],
+    "correctAnswer": "bottom",
+    "acceptedAnswers": [
+      "bottom"
+    ],
+    "explanation": "the lowest part: the lowest part (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-1",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": "u1-angry",
+    "dimension": "context",
+    "question": "angry",
+    "options": [
+      "happy",
+      "low",
+      "mad",
+      "scared"
+    ],
+    "correctAnswer": "mad",
+    "acceptedAnswers": [
+      "mad"
+    ],
+    "explanation": "angry: When someone is angry, they may want to speak loudly or fight. (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-2",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": "u1-moment",
+    "dimension": "context",
+    "question": "moment",
+    "options": [
+      "a hole with water in it",
+      "a short time",
+      "at the center",
+      "at the end"
+    ],
+    "correctAnswer": "at the center",
+    "acceptedAnswers": [
+      "at the center"
+    ],
+    "explanation": "moment: A moment is a second or a very short time. (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-3",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": "u1-promise",
+    "dimension": "context",
+    "question": "promise",
+    "options": [
+      "to say “good job”",
+      "to say “ I will”",
+      "to say “the end”",
+      "to say “ maybe”"
+    ],
+    "correctAnswer": "to say “good job”",
+    "acceptedAnswers": [
+      "to say “good job”"
+    ],
+    "explanation": "promise: To promise is to say you will do something for sure. (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-4",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": "u1-reply",
+    "dimension": "context",
+    "question": "reply",
+    "options": [
+      "to answer",
+      "to get to a place",
+      "to look for in order to kill",
+      "to try to fight or hurt"
+    ],
+    "correctAnswer": "to get to a place",
+    "acceptedAnswers": [
+      "to get to a place"
+    ],
+    "explanation": "reply: To reply is to give an answer or say back to someone. (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u1-mc-5",
+    "unit": 1,
+    "type": "Book exercise",
+    "wordId": "u1-safe",
+    "dimension": "context",
+    "question": "safe",
+    "options": [
+      "fool",
+      "having much or many",
+      "not seen",
+      "not worried about being hurt"
+    ],
+    "correctAnswer": "fool",
+    "acceptedAnswers": [
+      "fool"
+    ],
+    "explanation": "safe: When a person is safe, they are not in danger. (Book p. 10)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-1",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-friendly",
+    "dimension": "context",
+    "question": "friendly",
+    "options": [
+      "space",
+      "a list of information",
+      "acting or behaving nicely",
+      "a picture"
+    ],
+    "correctAnswer": "acting or behaving nicely",
+    "acceptedAnswers": [
+      "acting or behaving nicely"
+    ],
+    "explanation": "friendly: Friendly is behaving in a pleasant, kind way toward someone. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-2",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-grade",
+    "dimension": "context",
+    "question": "grade",
+    "options": [
+      "a score or mark on someone’s work",
+      "a small copy of something larger",
+      "where you go to read books",
+      "a paper written for school"
+    ],
+    "correctAnswer": "a score or mark on someone’s work",
+    "acceptedAnswers": [
+      "a score or mark on someone’s work"
+    ],
+    "explanation": "grade: A grade is a score or mark given to someone’s work. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-3",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-view",
+    "dimension": "context",
+    "question": "view",
+    "options": [
+      "to find an answer",
+      "to not succeed in what you try to do",
+      "to guess",
+      "to look at something"
+    ],
+    "correctAnswer": "to look at something",
+    "acceptedAnswers": [
+      "to look at something"
+    ],
+    "explanation": "view: To view is to look at something. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-4",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-ever",
+    "dimension": "context",
+    "question": "ever",
+    "options": [
+      "quickly and unexpectedly",
+      "at any time",
+      "all around you",
+      "to do the first thing"
+    ],
+    "correctAnswer": "at any time",
+    "acceptedAnswers": [
+      "at any time"
+    ],
+    "explanation": "ever: Ever means at any time. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-5",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-library",
+    "dimension": "context",
+    "question": "library",
+    "options": [
+      "space and things in space",
+      "from a different world",
+      "a place where books are",
+      "a round thing in space"
+    ],
+    "correctAnswer": "a place where books are",
+    "acceptedAnswers": [
+      "a place where books are"
+    ],
+    "explanation": "library: A library is a place where you go to read books. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-6",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-report",
+    "dimension": "context",
+    "question": "report",
+    "options": [
+      "many of something",
+      "a round thing",
+      "drops of water in the sky",
+      "a paper"
+    ],
+    "correctAnswer": "a paper",
+    "acceptedAnswers": [
+      "a paper"
+    ],
+    "explanation": "report: A report is something students write for school. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-7",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-alien",
+    "dimension": "context",
+    "question": "alien",
+    "options": [
+      "something written for school",
+      "a creature from a different world",
+      "in place of",
+      "a small copy of something"
+    ],
+    "correctAnswer": "a creature from a different world",
+    "acceptedAnswers": [
+      "a creature from a different world"
+    ],
+    "explanation": "alien: An alien is a creature from a different world. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-8",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-chart",
+    "dimension": "context",
+    "question": "chart",
+    "options": [
+      "a paper",
+      "a copy",
+      "a group",
+      "a list"
+    ],
+    "correctAnswer": "a list",
+    "acceptedAnswers": [
+      "a list"
+    ],
+    "explanation": "chart: A chart is a list of information. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-9",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-among",
+    "dimension": "context",
+    "question": "among",
+    "options": [
+      "in the middle of something",
+      "a score or mark",
+      "at any time",
+      "to understand"
+    ],
+    "correctAnswer": "in the middle of something",
+    "acceptedAnswers": [
+      "in the middle of something"
+    ],
+    "explanation": "among: If you are among certain things, they are all around you. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u3-mc-10",
+    "unit": 3,
+    "type": "Book exercise",
+    "wordId": "u3-solve",
+    "dimension": "context",
+    "question": "solve",
+    "options": [
+      "to guess",
+      "to look at something",
+      "to find an answer",
+      "to not succeed in what you try to do"
+    ],
+    "correctAnswer": "to find an answer",
+    "acceptedAnswers": [
+      "to find an answer"
+    ],
+    "explanation": "solve: To solve something is to find an answer to it. (Book p. 22)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-1",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-roll",
+    "dimension": "context",
+    "question": "roll",
+    "options": [
+      "to rest",
+      "a rule",
+      "to grow",
+      "to move by turning"
+    ],
+    "correctAnswer": "to move by turning",
+    "acceptedAnswers": [
+      "to move by turning"
+    ],
+    "explanation": "roll: To roll is to move by turning over and over. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-2",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-error",
+    "dimension": "context",
+    "question": "error",
+    "options": [
+      "a nice man",
+      "very old",
+      "something you do wrong",
+      "open land"
+    ],
+    "correctAnswer": "something you do wrong",
+    "acceptedAnswers": [
+      "something you do wrong"
+    ],
+    "explanation": "error: An error is something you do wrong. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-3",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-hurt",
+    "dimension": "context",
+    "question": "hurt",
+    "options": [
+      "to disagree",
+      "how much something costs",
+      "from nature",
+      "to do something that causes pain"
+    ],
+    "correctAnswer": "to do something that causes pain",
+    "acceptedAnswers": [
+      "to do something that causes pain"
+    ],
+    "explanation": "hurt: To hurt is to do something that makes you feel pain. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-4",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-reside",
+    "dimension": "context",
+    "question": "reside",
+    "options": [
+      "to relax",
+      "to live in a place for long",
+      "something that can be seen",
+      "to know about something"
+    ],
+    "correctAnswer": "to live in a place for long",
+    "acceptedAnswers": [
+      "to live in a place for long"
+    ],
+    "explanation": "reside: To reside means to live somewhere permanently or for a long time. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-5",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-relax",
+    "dimension": "context",
+    "question": "relax",
+    "options": [
+      "to keep going",
+      "a large group of people",
+      "to rest",
+      "to move"
+    ],
+    "correctAnswer": "to rest",
+    "acceptedAnswers": [
+      "to rest"
+    ],
+    "explanation": "relax: To relax is to rest. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-6",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-continue",
+    "dimension": "context",
+    "question": "continue",
+    "options": [
+      "to be in the right place",
+      "to stay",
+      "to have",
+      "to keep doing something"
+    ],
+    "correctAnswer": "to keep doing something",
+    "acceptedAnswers": [
+      "to keep doing something"
+    ],
+    "explanation": "continue: To continue something is to keep doing it. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-7",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-normal",
+    "dimension": "context",
+    "question": "normal",
+    "options": [
+      "the perfect amount",
+      "friendly",
+      "not strange",
+      "different"
+    ],
+    "correctAnswer": "not strange",
+    "acceptedAnswers": [
+      "not strange"
+    ],
+    "explanation": "normal: If something is normal, it is not strange nor surprising to you. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-8",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-rare",
+    "dimension": "context",
+    "question": "rare",
+    "options": [
+      "quiet",
+      "not full",
+      "interesting",
+      "not seen often"
+    ],
+    "correctAnswer": "not seen often",
+    "acceptedAnswers": [
+      "not seen often"
+    ],
+    "explanation": "rare: If something is rare, you do not see it very often. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-9",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-visible",
+    "dimension": "context",
+    "question": "visible",
+    "options": [
+      "from nature",
+      "easy to see",
+      "new",
+      "normal"
+    ],
+    "correctAnswer": "easy to see",
+    "acceptedAnswers": [
+      "easy to see"
+    ],
+    "explanation": "visible: If something is visible, it can be seen. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u5-mc-10",
+    "unit": 5,
+    "type": "Book exercise",
+    "wordId": "u5-field",
+    "dimension": "context",
+    "question": "field",
+    "options": [
+      "open land",
+      "to reside",
+      "a thing",
+      "a tool"
+    ],
+    "correctAnswer": "open land",
+    "acceptedAnswers": [
+      "open land"
+    ],
+    "explanation": "field: A field is a big area of land. (Book p. 34)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u7-mc-1",
+    "unit": 7,
+    "type": "Book exercise",
+    "wordId": "u7-challenge",
+    "dimension": "context",
+    "question": "something difficult that you have to do",
+    "options": [
+      "condition",
+      "sense",
+      "challenge",
+      "divide"
+    ],
+    "correctAnswer": "challenge",
+    "acceptedAnswers": [
+      "challenge"
+    ],
+    "explanation": "challenge: A challenge is something difficult to complete. (Book p. 46)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u7-mc-2",
+    "unit": 7,
+    "type": "Book exercise",
+    "wordId": "u7-prince",
+    "dimension": "context",
+    "question": "the son of a king",
+    "options": [
+      "prince",
+      "expert",
+      "famous",
+      "force"
+    ],
+    "correctAnswer": "prince",
+    "acceptedAnswers": [
+      "prince"
+    ],
+    "explanation": "prince: A prince is the son of a king. (Book p. 46)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u7-mc-3",
+    "unit": 7,
+    "type": "Book exercise",
+    "wordId": "u7-contribute",
+    "dimension": "context",
+    "question": "to do something to help succeed",
+    "options": [
+      "contribute",
+      "sudden",
+      "harm",
+      "peace"
+    ],
+    "correctAnswer": "contribute",
+    "acceptedAnswers": [
+      "contribute"
+    ],
+    "explanation": "contribute: To contribute to something means to do something to make it successfi (Book p. 46)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u7-mc-4",
+    "unit": 7,
+    "type": "Book exercise",
+    "wordId": "u7-therefore",
+    "dimension": "context",
+    "question": "for this reason",
+    "options": [
+      "allow",
+      "therefore",
+      "announce",
+      "beside"
+    ],
+    "correctAnswer": "therefore",
+    "acceptedAnswers": [
+      "therefore"
+    ],
+    "explanation": "therefore: Therefore means for this reason. (Book p. 46)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u7-mc-5",
+    "unit": 7,
+    "type": "Book exercise",
+    "wordId": "u7-protect",
+    "dimension": "context",
+    "question": "to stop someone from getting hurt",
+    "options": [
+      "claim",
+      "protect",
+      "lay",
+      "difference"
+    ],
+    "correctAnswer": "protect",
+    "acceptedAnswers": [
+      "protect"
+    ],
+    "explanation": "protect: To protect someone is to stop them from getting hurt. (Book p. 46)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-1",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-wave",
+    "dimension": "context",
+    "question": "wave",
+    "options": [
+      "to pass from physical life",
+      "salt water that surrounds land",
+      "a raised line of water",
+      "land in the middle of water"
+    ],
+    "correctAnswer": "a raised line of water",
+    "acceptedAnswers": [
+      "a raised line of water"
+    ],
+    "explanation": "wave: A wave is a line of water that moves higher than the rest of the water. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-2",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-taste",
+    "dimension": "context",
+    "question": "taste",
+    "options": [
+      "to hurt",
+      "to find",
+      "flavor",
+      "to walk"
+    ],
+    "correctAnswer": "flavor",
+    "acceptedAnswers": [
+      "flavor"
+    ],
+    "explanation": "taste: A taste is the flavor something makes in your mouth. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-3",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-against",
+    "dimension": "context",
+    "question": "against",
+    "options": [
+      "to be touching something",
+      "to stop from happening",
+      "maybe",
+      "enjoyable"
+    ],
+    "correctAnswer": "to be touching something",
+    "acceptedAnswers": [
+      "to be touching something"
+    ],
+    "explanation": "against: To be against something is to be touching it or opposed to it. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-4",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-rock",
+    "dimension": "context",
+    "question": "rock",
+    "options": [
+      "feelings",
+      "a place by the ocean",
+      "honest",
+      "a hard thing in the ground"
+    ],
+    "correctAnswer": "a hard thing in the ground",
+    "acceptedAnswers": [
+      "a hard thing in the ground"
+    ],
+    "explanation": "rock: A rock is a hard thing in the dirt. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-5",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-throw",
+    "dimension": "context",
+    "question": "throw",
+    "options": [
+      "to name something",
+      "to put something into the air",
+      "to make something work",
+      "to stop something from being hurt"
+    ],
+    "correctAnswer": "to put something into the air",
+    "acceptedAnswers": [
+      "to put something into the air"
+    ],
+    "explanation": "throw: To throw something is to use your hand to make it go through the air. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-6",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-island",
+    "dimension": "context",
+    "question": "island",
+    "options": [
+      "land",
+      "salt water",
+      "feelings",
+      "hard thing"
+    ],
+    "correctAnswer": "land",
+    "acceptedAnswers": [
+      "land"
+    ],
+    "explanation": "island: An island is land in the middle of water. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-7",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-discover",
+    "dimension": "context",
+    "question": "discover",
+    "options": [
+      "to be nice",
+      "to find something",
+      "to stop",
+      "to name"
+    ],
+    "correctAnswer": "to find something",
+    "acceptedAnswers": [
+      "to find something"
+    ],
+    "explanation": "discover: To discover something is to find it for the first time. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-8",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-step",
+    "dimension": "context",
+    "question": "step",
+    "options": [
+      "to keep from harm",
+      "to be next to",
+      "to walk",
+      "to hurt"
+    ],
+    "correctAnswer": "to walk",
+    "acceptedAnswers": [
+      "to walk"
+    ],
+    "explanation": "step: To step is to walk. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-9",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-beach",
+    "dimension": "context",
+    "question": "beach",
+    "options": [
+      "water that comes on land",
+      "a sandy or rocky place by the ocean",
+      "the flavor of something",
+      "something could happen"
+    ],
+    "correctAnswer": "a sandy or rocky place by the ocean",
+    "acceptedAnswers": [
+      "a sandy or rocky place by the ocean"
+    ],
+    "explanation": "beach: The beach is a sandy or rocky place by the ocean. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u9-mc-10",
+    "unit": 9,
+    "type": "Book exercise",
+    "wordId": "u9-fix",
+    "dimension": "context",
+    "question": "fix",
+    "options": [
+      "to make something work",
+      "to pass from physical life",
+      "to be honest",
+      "to make something move in the air"
+    ],
+    "correctAnswer": "to make something work",
+    "acceptedAnswers": [
+      "to make something work"
+    ],
+    "explanation": "fix: To fix something is to make it work. (Book p. 58)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u11-mc-1",
+    "unit": 11,
+    "type": "Book exercise",
+    "wordId": null,
+    "dimension": "context",
+    "question": "to marry",
+    "options": [
+      "collect",
+      "wed",
+      "prepare",
+      "introduce"
+    ],
+    "correctAnswer": "wed",
+    "acceptedAnswers": [
+      "wed"
+    ],
+    "explanation": "wed: to marry (Book p. 70)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u11-mc-2",
+    "unit": 11,
+    "type": "Book exercise",
+    "wordId": "u11-creature",
+    "dimension": "context",
+    "question": "a living thing",
+    "options": [
+      "conversation",
+      "truth",
+      "creature",
+      "decision"
+    ],
+    "correctAnswer": "creature",
+    "acceptedAnswers": [
+      "creature"
+    ],
+    "explanation": "creature: A creature is any living thing. (Book p. 70)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u11-mc-3",
+    "unit": 11,
+    "type": "Book exercise",
+    "wordId": "u11-sail",
+    "dimension": "context",
+    "question": "to move a boat across the water",
+    "options": [
+      "spend",
+      "berry",
+      "forest",
+      "sail"
+    ],
+    "correctAnswer": "sail",
+    "acceptedAnswers": [
+      "sail"
+    ],
+    "explanation": "sail: To sail is to move a boat on the water. (Book p. 70)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u11-mc-4",
+    "unit": 11,
+    "type": "Book exercise",
+    "wordId": "u11-either",
+    "dimension": "context",
+    "question": "one thing or the other",
+    "options": [
+      "asleep",
+      "compete",
+      "either",
+      "serious"
+    ],
+    "correctAnswer": "either",
+    "acceptedAnswers": [
+      "either"
+    ],
+    "explanation": "either: Either is used with “ or” to say there are two or more possibilities. (Book p. 70)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u11-mc-5",
+    "unit": 11,
+    "type": "Book exercise",
+    "wordId": "u11-anymore",
+    "dimension": "context",
+    "question": "any longer",
+    "options": [
+      "ground",
+      "strange",
+      "wake",
+      "anymore"
+    ],
+    "correctAnswer": "anymore",
+    "acceptedAnswers": [
+      "anymore"
+    ],
+    "explanation": "anymore: Anymore means any longer. (Book p. 70)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u12-mc-1",
+    "unit": 12,
+    "type": "Book exercise",
+    "wordId": "u12-artist",
+    "dimension": "context",
+    "question": "a person who paints, draws, or sculpts",
+    "options": [
+      "magazine",
+      "article",
+      "artist",
+      "alone"
+    ],
+    "correctAnswer": "artist",
+    "acceptedAnswers": [
+      "artist"
+    ],
+    "explanation": "artist: An artist is a person who paints, draws, or makes sculptures. (Book p. 76)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u12-mc-2",
+    "unit": 12,
+    "type": "Book exercise",
+    "wordId": "u12-judge",
+    "dimension": "context",
+    "question": "to decide that something is good or bad",
+    "options": [
+      "neighbor",
+      "judge",
+      "meal",
+      "compare"
+    ],
+    "correctAnswer": "judge",
+    "acceptedAnswers": [
+      "judge"
+    ],
+    "explanation": "judge: To judge something is to say if it is good or bad. (Book p. 76)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u12-mc-3",
+    "unit": 12,
+    "type": "Book exercise",
+    "wordId": "u12-method",
+    "dimension": "context",
+    "question": "a way of doing something",
+    "options": [
+      "method",
+      "profit",
+      "professional",
+      "attitude"
+    ],
+    "correctAnswer": "method",
+    "acceptedAnswers": [
+      "method"
+    ],
+    "explanation": "method: A method is the way to do something. (Book p. 76)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u12-mc-4",
+    "unit": 12,
+    "type": "Book exercise",
+    "wordId": "u12-quality",
+    "dimension": "context",
+    "question": "how good something is",
+    "options": [
+      "apartment",
+      "thin",
+      "quality",
+      "stairs"
+    ],
+    "correctAnswer": "quality",
+    "acceptedAnswers": [
+      "quality"
+    ],
+    "explanation": "quality: The quality of something is how good it is. (Book p. 76)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u12-mc-5",
+    "unit": 12,
+    "type": "Book exercise",
+    "wordId": "u12-material",
+    "dimension": "context",
+    "question": "something used to make other things",
+    "options": [
+      "shape",
+      "symbol",
+      "material",
+      "space"
+    ],
+    "correctAnswer": "material",
+    "acceptedAnswers": [
+      "material"
+    ],
+    "explanation": "material: A material is what is used to make something. (Book p. 76)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u13-mc-1",
+    "unit": 13,
+    "type": "Book exercise",
+    "wordId": "u13-blood",
+    "dimension": "context",
+    "question": "the liquid in your body",
+    "options": [
+      "spot",
+      "blood",
+      "cell",
+      "owe"
+    ],
+    "correctAnswer": "blood",
+    "acceptedAnswers": [
+      "blood"
+    ],
+    "explanation": "blood: Blood is the red liquid in your body. (Book p. 82)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u13-mc-2",
+    "unit": 13,
+    "type": "Book exercise",
+    "wordId": "u13-burn",
+    "dimension": "context",
+    "question": "to set on fire",
+    "options": [
+      "burn",
+      "increase",
+      "feed",
+      "contain"
+    ],
+    "correctAnswer": "burn",
+    "acceptedAnswers": [
+      "burn"
+    ],
+    "explanation": "burn: To burn something is to set it on fire. (Book p. 82)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u13-mc-3",
+    "unit": 13,
+    "type": "Book exercise",
+    "wordId": "u13-responsible",
+    "dimension": "context",
+    "question": "doing what you should do",
+    "options": [
+      "demand",
+      "raise",
+      "position",
+      "responsible"
+    ],
+    "correctAnswer": "responsible",
+    "acceptedAnswers": [
+      "responsible"
+    ],
+    "explanation": "responsible: If a person is responsible, they do the right things. (Book p. 82)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u13-mc-4",
+    "unit": 13,
+    "type": "Book exercise",
+    "wordId": "u13-equal",
+    "dimension": "context",
+    "question": "the same as something else",
+    "options": [
+      "hole",
+      "structure",
+      "lord",
+      "equal"
+    ],
+    "correctAnswer": "equal",
+    "acceptedAnswers": [
+      "equal"
+    ],
+    "explanation": "equal: To be equal is to be the same. (Book p. 82)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u13-mc-5",
+    "unit": 13,
+    "type": "Book exercise",
+    "wordId": "u13-sight",
+    "dimension": "context",
+    "question": "something interesting to see",
+    "options": [
+      "sight",
+      "correct",
+      "whole",
+      "crop"
+    ],
+    "correctAnswer": "sight",
+    "acceptedAnswers": [
+      "sight"
+    ],
+    "explanation": "sight: A sight is something interesting to see. (Book p. 82)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-1",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-prize",
+    "dimension": "context",
+    "question": "something of value that is given to the winner",
+    "options": [
+      "opportunity",
+      "prize",
+      "risk",
+      "happen"
+    ],
+    "correctAnswer": "prize",
+    "acceptedAnswers": [
+      "prize"
+    ],
+    "explanation": "prize: A prize is something of value that is given to the winner. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-2",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-fortunate",
+    "dimension": "context",
+    "question": "lucky",
+    "options": [
+      "extreme",
+      "across",
+      "fortunate",
+      "yet"
+    ],
+    "correctAnswer": "fortunate",
+    "acceptedAnswers": [
+      "fortunate"
+    ],
+    "explanation": "fortunate: If you are fortunate, you are lucky. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-3",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-consume",
+    "dimension": "context",
+    "question": "to eat",
+    "options": [
+      "consume",
+      "breathe",
+      "realize",
+      "observe"
+    ],
+    "correctAnswer": "consume",
+    "acceptedAnswers": [
+      "consume"
+    ],
+    "explanation": "consume: To consume something means to eat or drink it. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-4",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-fear",
+    "dimension": "context",
+    "question": "the feeling of being afraid",
+    "options": [
+      "length",
+      "fear",
+      "happen",
+      "characteristic"
+    ],
+    "correctAnswer": "fear",
+    "acceptedAnswers": [
+      "fear"
+    ],
+    "explanation": "fear: Fear is the feeling of being afraid. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-5",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-happen",
+    "dimension": "context",
+    "question": "to do by chance",
+    "options": [
+      "respond",
+      "realize",
+      "excite",
+      "happen"
+    ],
+    "correctAnswer": "happen",
+    "acceptedAnswers": [
+      "happen"
+    ],
+    "explanation": "happen: If someone happens to do something, they do it by chance. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-6",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-length",
+    "dimension": "context",
+    "question": "how long something is",
+    "options": [
+      "length",
+      "characteristic",
+      "wonder",
+      "mistake"
+    ],
+    "correctAnswer": "length",
+    "acceptedAnswers": [
+      "length"
+    ],
+    "explanation": "length: The length of something is how long it is from one end to the other. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-7",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-breathe",
+    "dimension": "context",
+    "question": "to let air in and out of your body",
+    "options": [
+      "observe",
+      "breathe",
+      "consume",
+      "excite"
+    ],
+    "correctAnswer": "breathe",
+    "acceptedAnswers": [
+      "breathe"
+    ],
+    "explanation": "breathe: To breathe means to let air go in and out of your body. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-8",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-mistake",
+    "dimension": "context",
+    "question": "something you did wrong",
+    "options": [
+      "happen",
+      "fear",
+      "mistake",
+      "risk"
+    ],
+    "correctAnswer": "mistake",
+    "acceptedAnswers": [
+      "mistake"
+    ],
+    "explanation": "mistake: A mistake is something you do wrong. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-9",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-yet",
+    "dimension": "context",
+    "question": "up to this point",
+    "options": [
+      "extreme",
+      "length",
+      "across",
+      "yet"
+    ],
+    "correctAnswer": "yet",
+    "acceptedAnswers": [
+      "yet"
+    ],
+    "explanation": "yet: Yet is used to say something has not happened up to now. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u15-mc-10",
+    "unit": 15,
+    "type": "Book exercise",
+    "wordId": "u15-realize",
+    "dimension": "context",
+    "question": "to understand",
+    "options": [
+      "realize",
+      "breathe",
+      "respond",
+      "observe"
+    ],
+    "correctAnswer": "realize",
+    "acceptedAnswers": [
+      "realize"
+    ],
+    "explanation": "realize: To realize is to suddenly understand. (Book p. 94)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-1",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-exist",
+    "dimension": "context",
+    "question": "exist",
+    "options": [
+      "the first one",
+      "to print a book",
+      "to be real",
+      "something to help you"
+    ],
+    "correctAnswer": "to be real",
+    "acceptedAnswers": [
+      "to be real"
+    ],
+    "explanation": "exist: To exist is to be real. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-2",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-clue",
+    "dimension": "context",
+    "question": "clue",
+    "options": [
+      "hint",
+      "steps",
+      "heavy",
+      "wood"
+    ],
+    "correctAnswer": "hint",
+    "acceptedAnswers": [
+      "hint"
+    ],
+    "explanation": "clue: A clue is a fact or object that helps solve a mystery or crime. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-3",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-maybe",
+    "dimension": "context",
+    "question": "maybe",
+    "options": [
+      "where you see shows",
+      "possible or likely to be true",
+      "where classes are held",
+      "where you hear music"
+    ],
+    "correctAnswer": "possible or likely to be true",
+    "acceptedAnswers": [
+      "possible or likely to be true"
+    ],
+    "explanation": "maybe: Maybe is used to show that something is possible or may be true. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-4",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-hidden",
+    "dimension": "context",
+    "question": "hidden",
+    "options": [
+      "one hundred years",
+      "level with no curves",
+      "a nice man",
+      "not able to be seen"
+    ],
+    "correctAnswer": "not able to be seen",
+    "acceptedAnswers": [
+      "not able to be seen"
+    ],
+    "explanation": "hidden: Hidden means to be not easily noticed or too hard to find. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-5",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-wealth",
+    "dimension": "context",
+    "question": "wealth",
+    "options": [
+      "old",
+      "leader",
+      "money",
+      "season"
+    ],
+    "correctAnswer": "money",
+    "acceptedAnswers": [
+      "money"
+    ],
+    "explanation": "wealth: Wealth is a large amount of money. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-6",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-pound",
+    "dimension": "context",
+    "question": "pound",
+    "options": [
+      "to hit hard many times",
+      "the steps you take",
+      "metal used in money",
+      "the largest political division of a state"
+    ],
+    "correctAnswer": "to hit hard many times",
+    "acceptedAnswers": [
+      "to hit hard many times"
+    ],
+    "explanation": "pound: To pound something is to hit it many times with a lot of force. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-7",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-century",
+    "dimension": "context",
+    "question": "century",
+    "options": [
+      "first",
+      "hundred",
+      "school",
+      "man"
+    ],
+    "correctAnswer": "hundred",
+    "acceptedAnswers": [
+      "hundred"
+    ],
+    "explanation": "century: A century is one hundred years. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-8",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-officer",
+    "dimension": "context",
+    "question": "officer",
+    "options": [
+      "a leader in the army",
+      "where you listen to music",
+      "a sports group",
+      "something you use to help get a job done"
+    ],
+    "correctAnswer": "a leader in the army",
+    "acceptedAnswers": [
+      "a leader in the army"
+    ],
+    "explanation": "officer: An officer is a leader in the army. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-9",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-theater",
+    "dimension": "context",
+    "question": "theater",
+    "options": [
+      "where you see a movie",
+      "a lot of money",
+      "a hint about something",
+      "a piece of wood"
+    ],
+    "correctAnswer": "where you see a movie",
+    "acceptedAnswers": [
+      "where you see a movie"
+    ],
+    "explanation": "theater: A theater is a building where you watch plays, shows, and movies. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u16-mc-10",
+    "unit": 16,
+    "type": "Book exercise",
+    "wordId": "u16-ancient",
+    "dimension": "context",
+    "question": "ancient",
+    "options": [
+      "to be real",
+      "possible or likely to be true",
+      "very old",
+      "to get a book ready to sell"
+    ],
+    "correctAnswer": "very old",
+    "acceptedAnswers": [
+      "very old"
+    ],
+    "explanation": "ancient: If something is ancient, it is very old. (Book p. 100)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-1",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-empty",
+    "dimension": "context",
+    "question": "empty",
+    "options": [
+      "in your mind",
+      "not containing anything",
+      "easy to see",
+      "sick"
+    ],
+    "correctAnswer": "not containing anything",
+    "acceptedAnswers": [
+      "not containing anything"
+    ],
+    "explanation": "empty: If something is empty, it does not have anything in it. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-2",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-depend",
+    "dimension": "context",
+    "question": "depend",
+    "options": [
+      "to move forward",
+      "to jump",
+      "to need someone or something",
+      "to look at something"
+    ],
+    "correctAnswer": "to need someone or something",
+    "acceptedAnswers": [
+      "to need someone or something"
+    ],
+    "explanation": "depend: To depend on someone or something is to need them. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-3",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-price",
+    "dimension": "context",
+    "question": "price",
+    "options": [
+      "a sweet candy",
+      "how much something costs",
+      "a music show",
+      "a school"
+    ],
+    "correctAnswer": "how much something costs",
+    "acceptedAnswers": [
+      "how much something costs"
+    ],
+    "explanation": "price: The price of something is how much it costs. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-4",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-select",
+    "dimension": "context",
+    "question": "select",
+    "options": [
+      "to change",
+      "to keep doing something",
+      "to choose",
+      "to fight"
+    ],
+    "correctAnswer": "to choose",
+    "acceptedAnswers": [
+      "to choose"
+    ],
+    "explanation": "select: To select something is to choose it. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-5",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-item",
+    "dimension": "context",
+    "question": "item",
+    "options": [
+      "a path",
+      "someone who keeps the law",
+      "a thing",
+      "a place to watch a show"
+    ],
+    "correctAnswer": "a thing",
+    "acceptedAnswers": [
+      "a thing"
+    ],
+    "explanation": "item: An item is a thing that you buy or sell. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-6",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-tool",
+    "dimension": "context",
+    "question": "tool",
+    "options": [
+      "something you study",
+      "a group of players",
+      "a loud noise",
+      "something that helps you do a task"
+    ],
+    "correctAnswer": "something that helps you do a task",
+    "acceptedAnswers": [
+      "something that helps you do a task"
+    ],
+    "explanation": "tool: A tool is something that helps you do a task. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-7",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-crowd",
+    "dimension": "context",
+    "question": "crowd",
+    "options": [
+      "a group of people",
+      "a flat piece of wood",
+      "100 years",
+      "a sign"
+    ],
+    "correctAnswer": "a group of people",
+    "acceptedAnswers": [
+      "a group of people"
+    ],
+    "explanation": "crowd: A crowd is a large group of people. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-8",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-dish",
+    "dimension": "context",
+    "question": "dish",
+    "options": [
+      "something no one knows",
+      "an answer",
+      "a grown person",
+      "a plate"
+    ],
+    "correctAnswer": "a plate",
+    "acceptedAnswers": [
+      "a plate"
+    ],
+    "explanation": "dish: A dish is a plate. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-9",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-communicate",
+    "dimension": "context",
+    "question": "communicate",
+    "options": [
+      "to shut",
+      "to go to where you can’t be seen",
+      "to talk",
+      "to leave"
+    ],
+    "correctAnswer": "to talk",
+    "acceptedAnswers": [
+      "to talk"
+    ],
+    "explanation": "communicate: To communicate is to give information by talking, writing, etc. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u18-mc-10",
+    "unit": 18,
+    "type": "Book exercise",
+    "wordId": "u18-exact",
+    "dimension": "context",
+    "question": "exact",
+    "options": [
+      "not on the top",
+      "not light",
+      "from a place nearby",
+      "the perfect amount"
+    ],
+    "correctAnswer": "the perfect amount",
+    "acceptedAnswers": [
+      "the perfect amount"
+    ],
+    "explanation": "exact: If something is exact, it is just the right amount. (Book p. 112)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u19-mc-1",
+    "unit": 19,
+    "type": "Book exercise",
+    "wordId": "u19-mention",
+    "dimension": "context",
+    "question": "mention",
+    "options": [
+      "to say",
+      "to look at",
+      "to not believe",
+      "to be happy"
+    ],
+    "correctAnswer": "to say",
+    "acceptedAnswers": [
+      "to say"
+    ],
+    "explanation": "mention: To mention something is to talk about it. (Book p. 118)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u19-mc-2",
+    "unit": 19,
+    "type": "Book exercise",
+    "wordId": "u19-social",
+    "dimension": "context",
+    "question": "social",
+    "options": [
+      "about many countries",
+      "not dead",
+      "about many people",
+      "about a different country"
+    ],
+    "correctAnswer": "about many people",
+    "acceptedAnswers": [
+      "about many people"
+    ],
+    "explanation": "social: If something is social, it is about many people in a community. (Book p. 118)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u19-mc-3",
+    "unit": 19,
+    "type": "Book exercise",
+    "wordId": "u19-lawyer",
+    "dimension": "context",
+    "question": "lawyer",
+    "options": [
+      "to be treated unfairly",
+      "a person who works with the law",
+      "leader",
+      "a part of the body"
+    ],
+    "correctAnswer": "a person who works with the law",
+    "acceptedAnswers": [
+      "a person who works with the law"
+    ],
+    "explanation": "lawyer: A lawyer works with the law and represents people in court. (Book p. 118)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u19-mc-4",
+    "unit": 19,
+    "type": "Book exercise",
+    "wordId": "u19-however",
+    "dimension": "context",
+    "question": "however",
+    "options": [
+      "the last part",
+      "part of a tree",
+      "a rule",
+      "despite something"
+    ],
+    "correctAnswer": "despite something",
+    "acceptedAnswers": [
+      "despite something"
+    ],
+    "explanation": "however: However means despite or not being influenced by something. (Book p. 118)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u19-mc-5",
+    "unit": 19,
+    "type": "Book exercise",
+    "wordId": "u19-bother",
+    "dimension": "context",
+    "question": "bother",
+    "options": [
+      "to look for new places",
+      "to make the effort to do something!",
+      "to talk about something",
+      "to not believe"
+    ],
+    "correctAnswer": "to make the effort to do something!",
+    "acceptedAnswers": [
+      "to make the effort to do something!"
+    ],
+    "explanation": "bother: To bother is to make the effort to do something. (Book p. 118)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u20-mc-1",
+    "unit": 20,
+    "type": "Book exercise",
+    "wordId": "u20-achieve",
+    "dimension": "context",
+    "question": "achieve",
+    "options": [
+      "to think about something",
+      "to get something",
+      "to tell someone what to do",
+      "to break into pieces"
+    ],
+    "correctAnswer": "to get something",
+    "acceptedAnswers": [
+      "to get something"
+    ],
+    "explanation": "achieve: To achieve something is to successfully do it after trying hard. (Book p. 124)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u20-mc-2",
+    "unit": 20,
+    "type": "Book exercise",
+    "wordId": "u20-reflect",
+    "dimension": "context",
+    "question": "reflect",
+    "options": [
+      "to tell someone what to do",
+      "to think about something",
+      "to damage something very badly",
+      "to send back an image"
+    ],
+    "correctAnswer": "to send back an image",
+    "acceptedAnswers": [
+      "to send back an image"
+    ],
+    "explanation": "reflect: To reflect is when a surface sends back light, heat, sound or an image. (Book p. 124)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u20-mc-3",
+    "unit": 20,
+    "type": "Book exercise",
+    "wordId": "u20-opinion",
+    "dimension": "context",
+    "question": "opinion",
+    "options": [
+      "a thought",
+      "a plant",
+      "an animal",
+      "a fight"
+    ],
+    "correctAnswer": "a thought",
+    "acceptedAnswers": [
+      "a thought"
+    ],
+    "explanation": "opinion: An opinion is a thought about a person or a thing. (Book p. 124)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u20-mc-4",
+    "unit": 20,
+    "type": "Book exercise",
+    "wordId": "u20-already",
+    "dimension": "context",
+    "question": "already",
+    "options": [
+      "not made up",
+      "before a certain time",
+      "more than is needed",
+      "very simple"
+    ],
+    "correctAnswer": "before a certain time",
+    "acceptedAnswers": [
+      "before a certain time"
+    ],
+    "explanation": "already: If something happens already, it happens before a certain time. (Book p. 124)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u20-mc-5",
+    "unit": 20,
+    "type": "Book exercise",
+    "wordId": "u20-goal",
+    "dimension": "context",
+    "question": "goal",
+    "options": [
+      "a thought about someone or something",
+      "a fight between groups of people",
+      "something you work toward",
+      "a small amount of something"
+    ],
+    "correctAnswer": "something you work toward",
+    "acceptedAnswers": [
+      "something you work toward"
+    ],
+    "explanation": "goal: A goal is something you work toward. (Book p. 124)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u22-mc-1",
+    "unit": 22,
+    "type": "Book exercise",
+    "wordId": "u22-steal",
+    "dimension": "context",
+    "question": "to take something that does not belong to you",
+    "options": [
+      "steal",
+      "include",
+      "amaze",
+      "plate"
+    ],
+    "correctAnswer": "steal",
+    "acceptedAnswers": [
+      "steal"
+    ],
+    "explanation": "steal: To steal is to take something that is not yours. (Book p. 136)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u22-mc-2",
+    "unit": 22,
+    "type": "Book exercise",
+    "wordId": "u22-occur",
+    "dimension": "context",
+    "question": "to happen",
+    "options": [
+      "manage",
+      "set",
+      "deliver",
+      "occur"
+    ],
+    "correctAnswer": "occur",
+    "acceptedAnswers": [
+      "occur"
+    ],
+    "explanation": "occur: To occur means to happen. (Book p. 136)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u22-mc-3",
+    "unit": 22,
+    "type": "Book exercise",
+    "wordId": "u22-comfort",
+    "dimension": "context",
+    "question": "to make someone feel better",
+    "options": [
+      "reward",
+      "earn",
+      "comfort",
+      "contact"
+    ],
+    "correctAnswer": "comfort",
+    "acceptedAnswers": [
+      "comfort"
+    ],
+    "explanation": "comfort: To comfort someone means to make them feel better. (Book p. 136)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u22-mc-4",
+    "unit": 22,
+    "type": "Book exercise",
+    "wordId": "u22-receive",
+    "dimension": "context",
+    "question": "to get",
+    "options": [
+      "receive",
+      "gate",
+      "charge",
+      "actual"
+    ],
+    "correctAnswer": "receive",
+    "acceptedAnswers": [
+      "receive"
+    ],
+    "explanation": "receive: To receive something is to get it. (Book p. 136)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u22-mc-5",
+    "unit": 22,
+    "type": "Book exercise",
+    "wordId": "u22-customer",
+    "dimension": "context",
+    "question": "a person who buys something",
+    "options": [
+      "opposite",
+      "mystery",
+      "customer",
+      "thief J"
+    ],
+    "correctAnswer": "customer",
+    "acceptedAnswers": [
+      "customer"
+    ],
+    "explanation": "customer: A customer is a person who buys something at a store. (Book p. 136)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u24-mc-1",
+    "unit": 24,
+    "type": "Book exercise",
+    "wordId": "u24-probable",
+    "dimension": "context",
+    "question": "probable",
+    "options": [
+      "a word for something",
+      "to hit",
+      "a leader",
+      "likely"
+    ],
+    "correctAnswer": "likely",
+    "acceptedAnswers": [
+      "likely"
+    ],
+    "explanation": "probable: If something is probable, it is likely to happen. (Book p. 148)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u24-mc-2",
+    "unit": 24,
+    "type": "Book exercise",
+    "wordId": "u24-lack",
+    "dimension": "context",
+    "question": "lack",
+    "options": [
+      "to not have enough",
+      "to try to make people act",
+      "to have many parts",
+      "to do activities to be healthy"
+    ],
+    "correctAnswer": "to not have enough",
+    "acceptedAnswers": [
+      "to not have enough"
+    ],
+    "explanation": "lack: If there is a lack of something, there is not enough of it. (Book p. 148)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u24-mc-3",
+    "unit": 24,
+    "type": "Book exercise",
+    "wordId": "u24-term",
+    "dimension": "context",
+    "question": "term",
+    "options": [
+      "available for everyone",
+      "to help something work",
+      "a thing that happens",
+      "a word for something"
+    ],
+    "correctAnswer": "a word for something",
+    "acceptedAnswers": [
+      "a word for something"
+    ],
+    "explanation": "term: A term is a word for something. (Book p. 148)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u24-mc-4",
+    "unit": 24,
+    "type": "Book exercise",
+    "wordId": "u24-unite",
+    "dimension": "context",
+    "question": "unite",
+    "options": [
+      "a person who dislikes",
+      "relationship between people who are friends",
+      "to work together",
+      "to do something to entertain"
+    ],
+    "correctAnswer": "to work together",
+    "acceptedAnswers": [
+      "to work together"
+    ],
+    "explanation": "unite: To unite is to get together to do something. (Book p. 148)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u24-mc-5",
+    "unit": 24,
+    "type": "Book exercise",
+    "wordId": "u24-fit",
+    "dimension": "context",
+    "question": "fit",
+    "options": [
+      "a large piece",
+      "connection between places",
+      "to be the right size",
+      "a loud shout of encouragement j j r i l Q i write a word that is similar in meaning to the underlined part."
+    ],
+    "correctAnswer": "to be the right size",
+    "acceptedAnswers": [
+      "to be the right size"
+    ],
+    "explanation": "fit: If something fits, it is small enough orthe right size to go there. (Book p. 148)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u25-mc-1",
+    "unit": 25,
+    "type": "Book exercise",
+    "wordId": "u25-recognize",
+    "dimension": "context",
+    "question": "to remember someone or something",
+    "options": [
+      "mix",
+      "range",
+      "populate",
+      "recognize"
+    ],
+    "correctAnswer": "recognize",
+    "acceptedAnswers": [
+      "recognize"
+    ],
+    "explanation": "recognize: To recognize something is to know it because you have seen it before. (Book p. 154)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u25-mc-2",
+    "unit": 25,
+    "type": "Book exercise",
+    "wordId": "u25-tip",
+    "dimension": "context",
+    "question": "the sharp end of a stick",
+    "options": [
+      "instance",
+      "regular",
+      "tip",
+      "environment"
+    ],
+    "correctAnswer": "tip",
+    "acceptedAnswers": [
+      "tip"
+    ],
+    "explanation": "tip: A tip is a pointed end of something. (Book p. 154)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u25-mc-3",
+    "unit": 25,
+    "type": "Book exercise",
+    "wordId": "u25-wide",
+    "dimension": "context",
+    "question": "large from side to side",
+    "options": [
+      "wide",
+      "period",
+      "produce",
+      "factory"
+    ],
+    "correctAnswer": "wide",
+    "acceptedAnswers": [
+      "wide"
+    ],
+    "explanation": "wide: If something is wide, it is large from side to side. (Book p. 154)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u25-mc-4",
+    "unit": 25,
+    "type": "Book exercise",
+    "wordId": "u25-involve",
+    "dimension": "context",
+    "question": "to be an important part of",
+    "options": [
+      "sign",
+      "medicine",
+      "involve",
+      "organize"
+    ],
+    "correctAnswer": "involve",
+    "acceptedAnswers": [
+      "involve"
+    ],
+    "explanation": "involve: To involve means to be actively taking part in something. (Book p. 154)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u25-mc-5",
+    "unit": 25,
+    "type": "Book exercise",
+    "wordId": "u25-produce",
+    "dimension": "context",
+    "question": "to make or create",
+    "options": [
+      "feature",
+      "produce",
+      "associate",
+      "tradition"
+    ],
+    "correctAnswer": "produce",
+    "acceptedAnswers": [
+      "produce"
+    ],
+    "explanation": "produce: To produce something is to make or grow it. (Book p. 154)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u26-mc-1",
+    "unit": 26,
+    "type": "Book exercise",
+    "wordId": "u26-maintain",
+    "dimension": "context",
+    "question": "to keep something going",
+    "options": [
+      "maintain",
+      "react",
+      "standard",
+      "prove"
+    ],
+    "correctAnswer": "maintain",
+    "acceptedAnswers": [
+      "maintain"
+    ],
+    "explanation": "maintain: To maintain means to make something stay the same. (Book p. 160)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u26-mc-2",
+    "unit": 26,
+    "type": "Book exercise",
+    "wordId": "u26-further",
+    "dimension": "context",
+    "question": "not this one or that one",
+    "options": [
+      "neither",
+      "further",
+      "along",
+      "situated"
+    ],
+    "correctAnswer": "further",
+    "acceptedAnswers": [
+      "further"
+    ],
+    "explanation": "further: Further is used to say something is from a distance or time. (Book p. 160)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u26-mc-3",
+    "unit": 26,
+    "type": "Book exercise",
+    "wordId": "u26-society",
+    "dimension": "context",
+    "question": "people and how they act",
+    "options": [
+      "otherwise",
+      "society",
+      "advice",
+      "climb"
+    ],
+    "correctAnswer": "society",
+    "acceptedAnswers": [
+      "society"
+    ],
+    "explanation": "society: Society is people and the way that they live. (Book p. 160)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u26-mc-4",
+    "unit": 26,
+    "type": "Book exercise",
+    "wordId": "u26-physical",
+    "dimension": "context",
+    "question": "describing the body",
+    "options": [
+      "final",
+      "drop",
+      "physical",
+      "attention"
+    ],
+    "correctAnswer": "physical",
+    "acceptedAnswers": [
+      "physical"
+    ],
+    "explanation": "physical: If something is physical, it is related to your body and not your mind. (Book p. 160)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u26-mc-5",
+    "unit": 26,
+    "type": "Book exercise",
+    "wordId": "u26-attract",
+    "dimension": "context",
+    "question": "to make someone interested",
+    "options": [
+      "imply",
+      "suggest",
+      "attract",
+      "ride"
+    ],
+    "correctAnswer": "attract",
+    "acceptedAnswers": [
+      "attract"
+    ],
+    "explanation": "attract: To attract means to make a person or thing come closer or be intereste (Book p. 160)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-1",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-gift",
+    "dimension": "context",
+    "question": "gift",
+    "options": [
+      "somewhere you go",
+      "something you give",
+      "someone at a doctor",
+      "something you think about"
+    ],
+    "correctAnswer": "something you give",
+    "acceptedAnswers": [
+      "something you give"
+    ],
+    "explanation": "gift: A gift is something you give someone. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-2",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-value",
+    "dimension": "context",
+    "question": "value",
+    "options": [
+      "worth",
+      "the ocean",
+      "information",
+      "not true"
+    ],
+    "correctAnswer": "worth",
+    "acceptedAnswers": [
+      "worth"
+    ],
+    "explanation": "value: If something has value, it is worth a lot of money. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-3",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-earthquake",
+    "dimension": "context",
+    "question": "earthquake",
+    "options": [
+      "to see many things",
+      "movement of the ground",
+      "a need to eat",
+      "to work well"
+    ],
+    "correctAnswer": "movement of the ground",
+    "acceptedAnswers": [
+      "movement of the ground"
+    ],
+    "explanation": "earthquake: An earthquake is a shaking movement of the ground. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-4",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-quite",
+    "dimension": "context",
+    "question": "quite",
+    "options": [
+      "to feel awake",
+      "instead",
+      "to look at",
+      "very much"
+    ],
+    "correctAnswer": "very much",
+    "acceptedAnswers": [
+      "very much"
+    ],
+    "explanation": "quite: Quite is used to say that something is complete or very much. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-5",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-puzzle",
+    "dimension": "context",
+    "question": "puzzle",
+    "options": [
+      "sand",
+      "to be gone a long time",
+      "in fact",
+      "a difficult question"
+    ],
+    "correctAnswer": "a difficult question",
+    "acceptedAnswers": [
+      "a difficult question"
+    ],
+    "explanation": "puzzle: A puzzle is something that is hard to understand. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-6",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-deal",
+    "dimension": "context",
+    "question": "deal",
+    "options": [
+      "a lot of information",
+      "an agreement with another person",
+      "a game",
+      "to want to do one thing but not another"
+    ],
+    "correctAnswer": "an agreement with another person",
+    "acceptedAnswers": [
+      "an agreement with another person"
+    ],
+    "explanation": "deal: A deal is an agreement that you have with another person. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-7",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-hunger",
+    "dimension": "context",
+    "question": "hunger",
+    "options": [
+      "a strong need for food",
+      "a long trip to a place",
+      "when you feel awake",
+      "something worth a lot of money"
+    ],
+    "correctAnswer": "a strong need for food",
+    "acceptedAnswers": [
+      "a strong need for food"
+    ],
+    "explanation": "hunger: Hunger is the feeling that you get when you need to eat. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-8",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-desert",
+    "dimension": "context",
+    "question": "desert",
+    "options": [
+      "a place without water",
+      "something you give someone",
+      "in fact",
+      "something that is not correct"
+    ],
+    "correctAnswer": "a place without water",
+    "acceptedAnswers": [
+      "a place without water"
+    ],
+    "explanation": "desert: The desert is an area of land without many plants or water. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-9",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-effective",
+    "dimension": "context",
+    "question": "effective",
+    "options": [
+      "to think in your head",
+      "to go somewhere",
+      "to choose something",
+      "working very well"
+    ],
+    "correctAnswer": "working very well",
+    "acceptedAnswers": [
+      "working very well"
+    ],
+    "explanation": "effective: If something is effective, it works well. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u27-mc-10",
+    "unit": 27,
+    "type": "Book exercise",
+    "wordId": "u27-coast",
+    "dimension": "context",
+    "question": "coast",
+    "options": [
+      "to look at something",
+      "to see many things",
+      "the ground moving",
+      "the edge of the ocean"
+    ],
+    "correctAnswer": "the edge of the ocean",
+    "acceptedAnswers": [
+      "the edge of the ocean"
+    ],
+    "explanation": "coast: The coast is the land by an ocean. (Book p. 166)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-1",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-breakfast",
+    "dimension": "context",
+    "question": "breakfast",
+    "options": [
+      "power",
+      "the first meal of the day",
+      "having a lot of money",
+      "the reason for something"
+    ],
+    "correctAnswer": "the first meal of the day",
+    "acceptedAnswers": [
+      "the first meal of the day"
+    ],
+    "explanation": "breakfast: Breakfast is the first meal of the day. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-2",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-knowledge",
+    "dimension": "context",
+    "question": "knowledge",
+    "options": [
+      "something that you can do",
+      "a good feeling about someone",
+      "to become better",
+      "what a person knows"
+    ],
+    "correctAnswer": "what a person knows",
+    "acceptedAnswers": [
+      "what a person knows"
+    ],
+    "explanation": "knowledge: Knowledge is information that you have about something. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-3",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-president",
+    "dimension": "context",
+    "question": "president",
+    "options": [
+      "the leader of a country",
+      "a little bit cold",
+      "to change other things",
+      "to tell people what to do"
+    ],
+    "correctAnswer": "the leader of a country",
+    "acceptedAnswers": [
+      "the leader of a country"
+    ],
+    "explanation": "president: A president is the leader of a country. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-4",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-gain",
+    "dimension": "context",
+    "question": "gain",
+    "options": [
+      "to get more",
+      "to tell about",
+      "important",
+      "to want more than something else"
+    ],
+    "correctAnswer": "to get more",
+    "acceptedAnswers": [
+      "to get more"
+    ],
+    "explanation": "gain: If you gain something, you get more of it. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-5",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-audience",
+    "dimension": "context",
+    "question": "audience",
+    "options": [
+      "not hard",
+      "the first meal of the day",
+      "having a lot of money",
+      "a group of people watching something"
+    ],
+    "correctAnswer": "a group of people watching something",
+    "acceptedAnswers": [
+      "a group of people watching something"
+    ],
+    "explanation": "audience: An audience is a group of people who watch something together. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-6",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-somehow",
+    "dimension": "context",
+    "question": "somehow",
+    "options": [
+      "unkind or unpleasant",
+      "slightly cold",
+      "in a way not known",
+      "to change something"
+    ],
+    "correctAnswer": "in a way not known",
+    "acceptedAnswers": [
+      "in a way not known"
+    ],
+    "explanation": "somehow: Somehow means in a way or by some means which is not known. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-7",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-competition",
+    "dimension": "context",
+    "question": "competition",
+    "options": [
+      "a leader",
+      "a game to find the best",
+      "a reason for something",
+      "something you can do"
+    ],
+    "correctAnswer": "a game to find the best",
+    "acceptedAnswers": [
+      "a game to find the best"
+    ],
+    "explanation": "competition: A competition is a contest to see who is the best at something. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-8",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-skill",
+    "dimension": "context",
+    "question": "skill",
+    "options": [
+      "what you know",
+      "power",
+      "the ability to do something well",
+      "to think someone is good"
+    ],
+    "correctAnswer": "the ability to do something well",
+    "acceptedAnswers": [
+      "the ability to do something well"
+    ],
+    "explanation": "skill: A skill is the knowledge and ability that allows you to do something well. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-9",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-mean",
+    "dimension": "context",
+    "question": "mean",
+    "options": [
+      "not short",
+      "to get more",
+      "big or important",
+      "not kind"
+    ],
+    "correctAnswer": "not kind",
+    "acceptedAnswers": [
+      "not kind"
+    ],
+    "explanation": "mean: Mean describes someone who is unkind or cruel. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u29-mc-10",
+    "unit": 29,
+    "type": "Book exercise",
+    "wordId": "u29-assign",
+    "dimension": "context",
+    "question": "assign",
+    "options": [
+      "to want more",
+      "give",
+      "to tell someone to do something",
+      "having a lot of money"
+    ],
+    "correctAnswer": "to tell someone to do something",
+    "acceptedAnswers": [
+      "to tell someone to do something"
+    ],
+    "explanation": "assign: To assign something to someone is to tell them to do it. (Book p. 178)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-1",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-section",
+    "dimension": "context",
+    "question": "section",
+    "options": [
+      "higher",
+      "the top layer",
+      "a part",
+      "to look at"
+    ],
+    "correctAnswer": "a part",
+    "acceptedAnswers": [
+      "a part"
+    ],
+    "explanation": "section: A section is a part of something larger. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-2",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-inside",
+    "dimension": "context",
+    "question": "inside",
+    "options": [
+      "in front",
+      "the inner part",
+      "proof",
+      "someone very good at something"
+    ],
+    "correctAnswer": "the inner part",
+    "acceptedAnswers": [
+      "the inner part"
+    ],
+    "explanation": "inside: Inside means the inner part, space or side of something. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-3",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-proper",
+    "dimension": "context",
+    "question": "proper",
+    "options": [
+      "a strong feeling",
+      "to treat the same",
+      "correct",
+      "in the middle"
+    ],
+    "correctAnswer": "correct",
+    "acceptedAnswers": [
+      "correct"
+    ],
+    "explanation": "proper: If something is proper, it is right. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-4",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-different",
+    "dimension": "context",
+    "question": "different",
+    "options": [
+      "not influenced",
+      "not the same",
+      "to show how to do",
+      "a phrase with a different meaning"
+    ],
+    "correctAnswer": "not the same",
+    "acceptedAnswers": [
+      "not the same"
+    ],
+    "explanation": "different: Different describes someone or something that is not the same as others. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-5",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-memory",
+    "dimension": "context",
+    "question": "memory",
+    "options": [
+      "a bag in clothes",
+      "a normal thing",
+      "how much money",
+      "something you remember"
+    ],
+    "correctAnswer": "something you remember",
+    "acceptedAnswers": [
+      "something you remember"
+    ],
+    "explanation": "memory: A memory is something you remember. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-6",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-idiom",
+    "dimension": "context",
+    "question": "idiom",
+    "options": [
+      "higher",
+      "a meaning different from its words",
+      "facts that prove something",
+      "to look carefully"
+    ],
+    "correctAnswer": "a meaning different from its words",
+    "acceptedAnswers": [
+      "a meaning different from its words"
+    ],
+    "explanation": "idiom: An idiom is a phrase with a meaning different from its words. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-7",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-amount",
+    "dimension": "context",
+    "question": "amount",
+    "options": [
+      "how much there is",
+      "a part of something larger",
+      "to treat the same",
+      "the right thing to do"
+    ],
+    "correctAnswer": "how much there is",
+    "acceptedAnswers": [
+      "how much there is"
+    ],
+    "explanation": "amount: An amount is how much there is of something. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-8",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-honesty",
+    "dimension": "context",
+    "question": "honesty",
+    "options": [
+      "the top of something",
+      "to learn about something",
+      "in front of something",
+      "the quality of being truthful"
+    ],
+    "correctAnswer": "the quality of being truthful",
+    "acceptedAnswers": [
+      "the quality of being truthful"
+    ],
+    "explanation": "honesty: Honesty means the quality of being truthful or honest. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-9",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-master",
+    "dimension": "context",
+    "question": "master",
+    "options": [
+      "a way of acting",
+      "someone who is very good at something",
+      "to show how to do something",
+      "a feeling that something is correct or true"
+    ],
+    "correctAnswer": "someone who is very good at something",
+    "acceptedAnswers": [
+      "someone who is very good at something"
+    ],
+    "explanation": "master: A master is a person who is very good at something. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u30-mc-10",
+    "unit": 30,
+    "type": "Book exercise",
+    "wordId": "u30-scan",
+    "dimension": "context",
+    "question": "scan",
+    "options": [
+      "to give something to someone",
+      "to look carefully at something",
+      "something that happens a lot",
+      "something you remember"
+    ],
+    "correctAnswer": "to look carefully at something",
+    "acceptedAnswers": [
+      "to look carefully at something"
+    ],
+    "explanation": "scan: To scan something is to look at it very carefully. (Book p. 184)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u2-adapt-0",
+    "unit": 2,
+    "type": "Book exercise adaptation",
+    "wordId": "u2-create",
+    "dimension": "context",
+    "question": "William wanted to make a new thing. Replace “make a new thing” with one word.",
+    "correctAnswer": "create",
+    "acceptedAnswers": [
+      "create"
+    ],
+    "explanation": "To create means to make something new. (Book p. 16; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u4-adapt-0",
+    "unit": 4,
+    "type": "Book exercise adaptation",
+    "wordId": "u4-spread",
+    "dimension": "context",
+    "question": "The story about the police dog got to many people in town. Which word means “moved to more places”?",
+    "correctAnswer": "spread",
+    "acceptedAnswers": [
+      "spread"
+    ],
+    "explanation": "To spread is to move quickly to more places. (Book p. 28; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u4-adapt-1",
+    "unit": 4,
+    "type": "Book exercise adaptation",
+    "wordId": "u4-content",
+    "dimension": "context",
+    "question": "I was happy to sit and listen to music all night. Which word means “happy and satisfied”?",
+    "correctAnswer": "content",
+    "acceptedAnswers": [
+      "content"
+    ],
+    "explanation": "To be content is to be happy and not want more. (Book p. 28; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u4-adapt-2",
+    "unit": 4,
+    "type": "Book exercise adaptation",
+    "wordId": "u4-shake",
+    "dimension": "context",
+    "question": "The house will move back and forth if a strong wind blows. Which word means “move back and forth”?",
+    "correctAnswer": "shake",
+    "acceptedAnswers": [
+      "shake"
+    ],
+    "explanation": "To shake is to move back and forth or up and down quickly. (Book p. 28; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u4-adapt-3",
+    "unit": 4,
+    "type": "Book exercise adaptation",
+    "wordId": "u4-expect",
+    "dimension": "context",
+    "question": "I waited for the monster to come out of the cave. Which word means “believed it would happen”?",
+    "correctAnswer": "expect",
+    "acceptedAnswers": [
+      "expect"
+    ],
+    "explanation": "If you expect something to happen, you believe it will happen. (Book p. 28; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u4-adapt-4",
+    "unit": 4,
+    "type": "Book exercise adaptation",
+    "wordId": "u4-avoid",
+    "dimension": "context",
+    "question": "I stayed away from my sister. Which word means “stay away from”?",
+    "correctAnswer": "avoid",
+    "acceptedAnswers": [
+      "avoid"
+    ],
+    "explanation": "To avoid something is to stay away from it. (Book p. 28; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u6-adapt-0",
+    "unit": 6,
+    "type": "Book exercise adaptation",
+    "wordId": "u6-return",
+    "dimension": "context",
+    "question": "Sam was happy to go back to his house. Which word means “go back”?",
+    "correctAnswer": "return",
+    "acceptedAnswers": [
+      "return"
+    ],
+    "explanation": "To return is to go back to a place. (Book p. 40; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u6-adapt-1",
+    "unit": 6,
+    "type": "Book exercise adaptation",
+    "wordId": "u6-wise",
+    "dimension": "context",
+    "question": "Her grandfather is a smart old man. Which word means “using experience to make good choices”?",
+    "correctAnswer": "wise",
+    "acceptedAnswers": [
+      "wise"
+    ],
+    "explanation": "To be wise is to use experience and intelligence to make good choices. (Book p. 40; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u6-adapt-2",
+    "unit": 6,
+    "type": "Book exercise adaptation",
+    "wordId": "u6-pet",
+    "dimension": "context",
+    "question": "William wanted an animal to live with. Which noun fits?",
+    "correctAnswer": "pet",
+    "acceptedAnswers": [
+      "pet"
+    ],
+    "explanation": "A pet is an animal that lives with people. (Book p. 40; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u6-adapt-3",
+    "unit": 6,
+    "type": "Book exercise adaptation",
+    "wordId": "u6-weather",
+    "dimension": "context",
+    "question": "He studies the condition of the air. What does he study?",
+    "correctAnswer": "weather",
+    "acceptedAnswers": [
+      "weather"
+    ],
+    "explanation": "The weather is the condition of the air: hot, rainy, windy, etc. (Book p. 40; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u6-adapt-4",
+    "unit": 6,
+    "type": "Book exercise adaptation",
+    "wordId": "u6-face",
+    "dimension": "context",
+    "question": "I have to deal with my rising credit card bill. Which word means “deal with”?",
+    "correctAnswer": "face",
+    "acceptedAnswers": [
+      "face"
+    ],
+    "explanation": "If you face a problem, you deal with it. (Book p. 40; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u8-adapt-0",
+    "unit": 8,
+    "type": "Book exercise adaptation",
+    "wordId": "u8-familiar",
+    "dimension": "context",
+    "question": "She looks like someone that I know well. Which adjective means “known well”?",
+    "correctAnswer": "familiar",
+    "acceptedAnswers": [
+      "familiar"
+    ],
+    "explanation": "If someone or something is familiar to you, you know them well. (Book p. 52; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u8-adapt-1",
+    "unit": 8,
+    "type": "Book exercise adaptation",
+    "wordId": "u8-necessary",
+    "dimension": "context",
+    "question": "Drinking water is something that she must do. Which adjective fits?",
+    "correctAnswer": "necessary",
+    "acceptedAnswers": [
+      "necessary"
+    ],
+    "explanation": "If something is necessary, you must do it. (Book p. 52; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u8-adapt-2",
+    "unit": 8,
+    "type": "Book exercise adaptation",
+    "wordId": "u8-theory",
+    "dimension": "context",
+    "question": "He has an idea of how the machine works. Which noun means “an idea about how something works”?",
+    "correctAnswer": "theory",
+    "acceptedAnswers": [
+      "theory"
+    ],
+    "explanation": "A theory is an idea about how something works. (Book p. 52; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u8-adapt-3",
+    "unit": 8,
+    "type": "Book exercise adaptation",
+    "wordId": "u8-purpose",
+    "dimension": "context",
+    "question": "The reason that I am doing this is to help children. Which word means “reason”?",
+    "correctAnswer": "purpose",
+    "acceptedAnswers": [
+      "purpose"
+    ],
+    "explanation": "A purpose is the reason that you do something. (Book p. 52; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u8-adapt-4",
+    "unit": 8,
+    "type": "Book exercise adaptation",
+    "wordId": "u8-encourage",
+    "dimension": "context",
+    "question": "My teacher will make me want to get good grades. Which verb means “make someone want to do something”?",
+    "correctAnswer": "encourage",
+    "acceptedAnswers": [
+      "encourage"
+    ],
+    "explanation": "To encourage someone is to make them want to do something. (Book p. 52; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u10-adapt-0",
+    "unit": 10,
+    "type": "Book exercise adaptation",
+    "wordId": "u10-essential",
+    "dimension": "context",
+    "question": "It is very important that you call your mother soon. Replace “very important”.",
+    "correctAnswer": "essential",
+    "acceptedAnswers": [
+      "essential"
+    ],
+    "explanation": "If something is essential, it is very important and necessary. (Book p. 64; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u10-adapt-1",
+    "unit": 10,
+    "type": "Book exercise adaptation",
+    "wordId": "u10-benefit",
+    "dimension": "context",
+    "question": "The good thing about being old is that you know many things. Which word means “good thing”?",
+    "correctAnswer": "benefit",
+    "acceptedAnswers": [
+      "benefit"
+    ],
+    "explanation": "A benefit is a good thing. (Book p. 64; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u10-adapt-2",
+    "unit": 10,
+    "type": "Book exercise adaptation",
+    "wordId": "u10-trouble",
+    "dimension": "context",
+    "question": "I have problems with my science homework. Which word means “problems”?",
+    "correctAnswer": "trouble",
+    "acceptedAnswers": [
+      "trouble"
+    ],
+    "explanation": "Trouble is a problem or a difficulty. (Book p. 64; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u10-adapt-3",
+    "unit": 10,
+    "type": "Book exercise adaptation",
+    "wordId": "u10-certain",
+    "dimension": "context",
+    "question": "I am sure that she will come to his party. Replace “sure”.",
+    "correctAnswer": "certain",
+    "acceptedAnswers": [
+      "certain"
+    ],
+    "explanation": "If you are certain about something, you know it is true. (Book p. 64; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u10-adapt-4",
+    "unit": 10,
+    "type": "Book exercise adaptation",
+    "wordId": "u10-function",
+    "dimension": "context",
+    "question": "The job of the stove is to cook. Which noun means “what something does”?",
+    "correctAnswer": "function",
+    "acceptedAnswers": [
+      "function"
+    ],
+    "explanation": "The function of something is what it does. (Book p. 64; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u14-adapt-0",
+    "unit": 14,
+    "type": "Book exercise adaptation",
+    "wordId": "u14-exam",
+    "dimension": "context",
+    "question": "He got a low score on the science test. Which word means “test”?",
+    "correctAnswer": "exam",
+    "acceptedAnswers": [
+      "exam"
+    ],
+    "explanation": "An exam is a test. (Book p. 88; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u14-adapt-1",
+    "unit": 14,
+    "type": "Book exercise adaptation",
+    "wordId": "u14-magical",
+    "dimension": "context",
+    "question": "The evening was filled with special things that made it different. Which adjective fits?",
+    "correctAnswer": "magical",
+    "acceptedAnswers": [
+      "magical"
+    ],
+    "explanation": "Magical describes a quality that makes someone or something special. (Book p. 88; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u14-adapt-2",
+    "unit": 14,
+    "type": "Book exercise adaptation",
+    "wordId": "u14-technology",
+    "dimension": "context",
+    "question": "He loves new things made using science. Which noun means these things?",
+    "correctAnswer": "technology",
+    "acceptedAnswers": [
+      "technology"
+    ],
+    "explanation": "Technology is new things made by using science. (Book p. 88; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u14-adapt-3",
+    "unit": 14,
+    "type": "Book exercise adaptation",
+    "wordId": "u14-outline",
+    "dimension": "context",
+    "question": "I only read the plan for the story. Which word means “plan for a story”?",
+    "correctAnswer": "outline",
+    "acceptedAnswers": [
+      "outline"
+    ],
+    "explanation": "An outline is the plan for a story or essay. (Book p. 88; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u14-adapt-4",
+    "unit": 14,
+    "type": "Book exercise adaptation",
+    "wordId": "u14-description",
+    "dimension": "context",
+    "question": "The writer explains what someone looks like. Which noun means that explanation?",
+    "correctAnswer": "description",
+    "acceptedAnswers": [
+      "description"
+    ],
+    "explanation": "A description of someone or something says what they are like. (Book p. 88; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u17-adapt-0",
+    "unit": 17,
+    "type": "Book exercise adaptation",
+    "wordId": "u17-fair",
+    "dimension": "context",
+    "question": "His final offer was very reasonable. Which adjective means “reasonable”?",
+    "correctAnswer": "fair",
+    "acceptedAnswers": [
+      "fair"
+    ],
+    "explanation": "Fair describes treating someone in a way that is reasonable or right. (Book p. 106; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u17-adapt-1",
+    "unit": 17,
+    "type": "Book exercise adaptation",
+    "wordId": "u17-waste",
+    "dimension": "context",
+    "question": "Don’t throw it in the trash without using all of it. Which verb means “carelessly use”?",
+    "correctAnswer": "waste",
+    "acceptedAnswers": [
+      "waste"
+    ],
+    "explanation": "To waste means to carelessly use something all up. (Book p. 106; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u17-adapt-2",
+    "unit": 17,
+    "type": "Book exercise adaptation",
+    "wordId": "u17-disappear",
+    "dimension": "context",
+    "question": "The rabbit will go away if you get too close. Which word means “no longer be seen”?",
+    "correctAnswer": "disappear",
+    "acceptedAnswers": [
+      "disappear"
+    ],
+    "explanation": "To disappear means to go away or not be seen. (Book p. 106; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u17-adapt-3",
+    "unit": 17,
+    "type": "Book exercise adaptation",
+    "wordId": "u17-determine",
+    "dimension": "context",
+    "question": "You must decide what to do next. Which verb means “decide”?",
+    "correctAnswer": "determine",
+    "acceptedAnswers": [
+      "determine"
+    ],
+    "explanation": "To determine means to choose or make a decision. (Book p. 106; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u21-adapt-0",
+    "unit": 21,
+    "type": "Book exercise adaptation",
+    "wordId": "u21-locate",
+    "dimension": "context",
+    "question": "I went to the video store last night. I wanted to _____ a DVD.",
+    "correctAnswer": "locate",
+    "acceptedAnswers": [
+      "locate"
+    ],
+    "explanation": "To locate something is to find it. (Book p. 130; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u21-adapt-1",
+    "unit": 21,
+    "type": "Book exercise adaptation",
+    "wordId": "u21-clerk",
+    "dimension": "context",
+    "question": "I didn’t know the name of the movie, so I told the _____ what it was about.",
+    "correctAnswer": "clerk",
+    "acceptedAnswers": [
+      "clerk"
+    ],
+    "explanation": "A clerk is a type of worker. Clerks in a store help customers. (Book p. 130; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u21-adapt-2",
+    "unit": 21,
+    "type": "Book exercise adaptation",
+    "wordId": "u21-hero",
+    "dimension": "context",
+    "question": "I told her there was a _____ who could fly.",
+    "correctAnswer": "hero",
+    "acceptedAnswers": [
+      "hero"
+    ],
+    "explanation": "A hero is a brave person who does things to help others. (Book p. 130; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u21-adapt-3",
+    "unit": 21,
+    "type": "Book exercise adaptation",
+    "wordId": "u21-pain",
+    "dimension": "context",
+    "question": "Nothing caused him _____.",
+    "correctAnswer": "pain",
+    "acceptedAnswers": [
+      "pain"
+    ],
+    "explanation": "Pain is the feeling that you have when you are hurt. (Book p. 130; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u21-adapt-4",
+    "unit": 21,
+    "type": "Book exercise adaptation",
+    "wordId": null,
+    "dimension": "context",
+    "question": "Then I _____ home to watch it.",
+    "correctAnswer": "hurried",
+    "acceptedAnswers": [
+      "hurried"
+    ],
+    "explanation": "hurried (Book p. 130; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u23-adapt-0",
+    "unit": 23,
+    "type": "Book exercise adaptation",
+    "wordId": "u23-match",
+    "dimension": "context",
+    "question": "I need to find the other sock that is the same as this one. Which verb means “be the same or similar”?",
+    "correctAnswer": "match",
+    "acceptedAnswers": [
+      "match"
+    ],
+    "explanation": "To match is to be the same or similar. (Book p. 142; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u23-adapt-1",
+    "unit": 23,
+    "type": "Book exercise adaptation",
+    "wordId": "u23-remove",
+    "dimension": "context",
+    "question": "Please take away your feet from the table. Which verb means “take away”?",
+    "correctAnswer": "remove",
+    "acceptedAnswers": [
+      "remove"
+    ],
+    "explanation": "To remove something is to take it away. (Book p. 142; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u23-adapt-2",
+    "unit": 23,
+    "type": "Book exercise adaptation",
+    "wordId": "u23-average",
+    "dimension": "context",
+    "question": "This is a very normal morning. Which adjective means “normal”?",
+    "correctAnswer": "average",
+    "acceptedAnswers": [
+      "average"
+    ],
+    "explanation": "If something is average, it is at a normal level. (Book p. 142; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u23-adapt-3",
+    "unit": 23,
+    "type": "Book exercise adaptation",
+    "wordId": "u23-sound",
+    "dimension": "context",
+    "question": "The bell made a noise, so we changed classes. Which verb means “make a noise”?",
+    "correctAnswer": "sound",
+    "acceptedAnswers": [
+      "sound"
+    ],
+    "explanation": "To sound means to make a noise. (Book p. 142; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u23-adapt-4",
+    "unit": 23,
+    "type": "Book exercise adaptation",
+    "wordId": "u23-advance",
+    "dimension": "context",
+    "question": "William wanted to go forward, but a wall stopped him. Which verb means “go forward”?",
+    "correctAnswer": "advance",
+    "acceptedAnswers": [
+      "advance"
+    ],
+    "explanation": "To advance is to go forward. (Book p. 142; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u28-adapt-0",
+    "unit": 28,
+    "type": "Book exercise adaptation",
+    "wordId": "u28-professor",
+    "dimension": "context",
+    "question": "If you don’t understand the class, you should ask your _____ for help.",
+    "correctAnswer": "professor",
+    "acceptedAnswers": [
+      "professor"
+    ],
+    "explanation": "A professor is a person who teaches in college. (Book p. 172; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u28-adapt-1",
+    "unit": 28,
+    "type": "Book exercise adaptation",
+    "wordId": "u28-barely",
+    "dimension": "context",
+    "question": "I could _____ hear his speech because of all the noise.",
+    "correctAnswer": "barely",
+    "acceptedAnswers": [
+      "barely"
+    ],
+    "explanation": "Barely means by the smallest amount, almost not. (Book p. 172; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  },
+  {
+    "id": "book-u28-adapt-2",
+    "unit": 28,
+    "type": "Book exercise adaptation",
+    "wordId": "u28-predict",
+    "dimension": "context",
+    "question": "I _____ that tomorrow will be a good day.",
+    "correctAnswer": "predict",
+    "acceptedAnswers": [
+      "predict"
+    ],
+    "explanation": "To predict something is to say that it will happen. (Book p. 172; wording adapted.)",
+    "sourceType": "book",
+    "verified": true
+  }
+]

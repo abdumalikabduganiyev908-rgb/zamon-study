@@ -1,0 +1,574 @@
+{
+  "a1": {
+    "1": [
+      "My name is Ali.",
+      "I am a new student.",
+      "You are in my class.",
+      "Are you from Tashkent?",
+      "My friend is from Spain.",
+      "Hello, I am your teacher."
+    ],
+    "2": [
+      "Is he your teacher?",
+      "They are my friends.",
+      "We are in the classroom.",
+      "These pencils are red.",
+      "Are those your bags?",
+      "It is a small school."
+    ],
+    "3": [
+      "My mother has got a red phone.",
+      "These are her keys.",
+      "Our teacher has got a car.",
+      "Is this your notebook?",
+      "I have got two sisters.",
+      "Their house is big."
+    ],
+    "4": [
+      "I get up at seven.",
+      "My brother plays football.",
+      "We study English every day.",
+      "Do you work here?",
+      "She eats lunch at home.",
+      "They go to bed early."
+    ],
+    "5": [
+      "I sometimes wear a green shirt.",
+      "He never wears a hat.",
+      "What do you wear at school?",
+      "My shoes are black.",
+      "She always buys small bags.",
+      "Do they like this design?"
+    ],
+    "6": [
+      "There is a bank on this road.",
+      "There are three rooms upstairs.",
+      "Is there a cafe nearby?",
+      "The bus stop is next to the shop.",
+      "There is not a lift here.",
+      "Are there any toilets downstairs?"
+    ],
+    "7": [
+      "Can you play the guitar?",
+      "He cannot ride a bike.",
+      "I like cooking.",
+      "We can speak English.",
+      "Do you like dancing?",
+      "She likes playing tennis."
+    ],
+    "8": [
+      "My father was tired yesterday.",
+      "They were at school on Monday.",
+      "I watched a film last night.",
+      "She cleaned her room.",
+      "Were you at the party?",
+      "We helped him yesterday."
+    ],
+    "9": [
+      "She bought a new book.",
+      "We did not find the keys.",
+      "Where did you go yesterday?",
+      "He ate a sandwich.",
+      "I saw a cat outside.",
+      "Did they come by bus?"
+    ],
+    "10": [
+      "She is going to move house.",
+      "Are you going to learn Spanish?",
+      "I am not going to work tomorrow.",
+      "They are going to build a school.",
+      "We are going to take the bus.",
+      "He is going to call his friend."
+    ]
+  },
+  "a2": {
+    "1": [
+      "Our new teacher is friendly.",
+      "His brother is twenty years old.",
+      "Are your parents at home?",
+      "That is my aunt's car.",
+      "They are from a small village.",
+      "Her name is Laylo."
+    ],
+    "2": [
+      "I often have breakfast at seven.",
+      "My father drives to work.",
+      "Do you usually get up early?",
+      "He hardly ever drinks coffee.",
+      "We have dinner together.",
+      "She finishes school at three."
+    ],
+    "3": [
+      "What time does the shop close?",
+      "Do they wear a uniform?",
+      "Who works at the reception desk?",
+      "My uncle repairs cars.",
+      "How does she get to work?",
+      "Does your sister enjoy her job?"
+    ],
+    "4": [
+      "There is an armchair by the window.",
+      "Is there a supermarket in this town?",
+      "The bathroom is upstairs.",
+      "There are some books on the shelf.",
+      "A lamp stands beside the bed.",
+      "The hotel has a small garden."
+    ],
+    "5": [
+      "He is trying on a grey coat.",
+      "Can I have a smaller size?",
+      "They are shopping for shoes.",
+      "How much is this dress?",
+      "I am looking for a white shirt.",
+      "Can you help me with this bag?"
+    ],
+    "6": [
+      "We stayed in a hotel last summer.",
+      "Was the weather good yesterday?",
+      "She walked home after class.",
+      "They were late for the lesson.",
+      "I started this course in May.",
+      "He did not enjoy the film."
+    ],
+    "7": [
+      "I slept for eight hours last night.",
+      "He did not feel well yesterday.",
+      "She drank some water after running.",
+      "We took a long walk in the park.",
+      "I made a healthy lunch.",
+      "They did not go to the gym."
+    ],
+    "8": [
+      "Where did you buy your ticket?",
+      "You have to show your passport.",
+      "Should we take a taxi?",
+      "How long did the journey take?",
+      "He has to leave before six.",
+      "You should check the train times."
+    ],
+    "9": [
+      "There are a few apples in the basket.",
+      "We do not need much salt.",
+      "How many eggs do you need?",
+      "I would like some bread.",
+      "There is not any milk left.",
+      "She puts a little sugar in her tea."
+    ],
+    "10": [
+      "This river is longer than that one.",
+      "Our village is quieter than the city.",
+      "That is the oldest tree in the park.",
+      "My room is smaller than yours.",
+      "Which animal is the fastest?",
+      "Summer is hotter than spring."
+    ],
+    "11": [
+      "They are going to work in pairs.",
+      "I need a pen to write my answer.",
+      "Are we going to meet after class?",
+      "She called me to discuss the project.",
+      "We are going to help our neighbours.",
+      "He went outside to get some fresh air."
+    ],
+    "12": [
+      "Have you ever visited an art gallery?",
+      "I have never played the violin.",
+      "She went to a concert yesterday.",
+      "They have already read that story.",
+      "We saw a painting at the exhibition.",
+      "He has not finished his drawing yet."
+    ]
+  },
+  "b1": {
+    "1": [
+      "What do you usually do at weekends?",
+      "She spends an hour practising each day.",
+      "How long does your journey take?",
+      "We hardly ever arrive late.",
+      "When did you last take a break?",
+      "I usually plan my week on Sunday."
+    ],
+    "2": [
+      "My brother is decorating his room today.",
+      "We live in a house that has a garden.",
+      "The woman who lives upstairs is friendly.",
+      "I usually work at home, but today I am in the office.",
+      "They are building a new balcony.",
+      "A garage is a place where you can keep your car."
+    ],
+    "3": [
+      "I was climbing the stairs when my phone rang.",
+      "While we were walking, the weather changed.",
+      "The train stopped while he was reading.",
+      "She dropped her bag as she got into the lift.",
+      "They were talking when the lights went out.",
+      "I felt nervous before I entered the building."
+    ],
+    "4": [
+      "She hopes to learn a new skill.",
+      "He enjoys solving difficult problems.",
+      "I am starting a new course next month.",
+      "They agreed to help with the project.",
+      "We are having a meeting on Friday.",
+      "I want to spend less time on my phone."
+    ],
+    "5": [
+      "There are too many boxes in this room.",
+      "I found an old camera in a cupboard.",
+      "We have enough chairs for everyone.",
+      "She keeps a few useful things in her bag.",
+      "There is not much space on the desk.",
+      "Can you lend me a pair of scissors?"
+    ],
+    "6": [
+      "My cousin is taller than my brother.",
+      "She has just sent me a message.",
+      "This exercise is less difficult than the last one.",
+      "Have you met our new neighbour yet?",
+      "He is the most reliable person I know.",
+      "We have not seen our relatives this month."
+    ],
+    "7": [
+      "It might snow during our trip.",
+      "I think you will enjoy the journey.",
+      "There is nobody at the information desk.",
+      "We could visit somewhere quieter.",
+      "Someone has taken my seat.",
+      "The bus will probably arrive late."
+    ],
+    "8": [
+      "You must switch off your phone in the exam.",
+      "I could read simple English when I was ten.",
+      "She was able to finish the task on time.",
+      "We do not have to bring a dictionary.",
+      "Can you explain that word again?",
+      "You should practise a little every day."
+    ],
+    "9": [
+      "If I feel tired, I will take a short break.",
+      "We will start when everyone arrives.",
+      "If you drink enough water, you will feel better.",
+      "She will call you after she finishes work.",
+      "I will go for a walk unless it rains.",
+      "Before you go to bed, turn off the lights."
+    ],
+    "10": [
+      "Eating slowly can help you enjoy your meal.",
+      "The bread is baked here every morning.",
+      "I enjoy trying recipes from other countries.",
+      "These apples are picked in September.",
+      "This soup is made with fresh vegetables.",
+      "Cooking for friends makes me happy."
+    ],
+    "11": [
+      "If I lived near the sea, I would swim every day.",
+      "Our town used to have fewer cars.",
+      "If she had a garden, she would grow vegetables.",
+      "My grandfather used to cycle to work.",
+      "We would save energy if we turned off the lights.",
+      "People did not use to shop online."
+    ],
+    "12": [
+      "I have studied here since January.",
+      "He has worked in a shop for six months.",
+      "She wants to apply for a better job.",
+      "We need to prepare for the interview.",
+      "They have known their manager for years.",
+      "It is important to arrive on time."
+    ]
+  },
+  "b1plus": {
+    "1": [
+      "I have been interested in fashion since school.",
+      "People are spending more time online.",
+      "This shop sells clothes made from recycled material.",
+      "I do not believe every trend is useful.",
+      "The way we communicate is changing.",
+      "She has owned that jacket for five years."
+    ],
+    "2": [
+      "By the time we arrived, the show had started.",
+      "I was looking for my ticket when I found some money.",
+      "After he had checked the map, he left the hotel.",
+      "They were laughing while she told her story.",
+      "We had never seen such a strange animal before.",
+      "Eventually, we found our way back home."
+    ],
+    "3": [
+      "She succeeded in repairing the bike herself.",
+      "You should learn how to manage your time.",
+      "We were unable to open the damaged door.",
+      "He must wear protective glasses in the workshop.",
+      "I could not solve the problem without help.",
+      "You do not need to know everything at once."
+    ],
+    "4": [
+      "The population will probably continue to grow.",
+      "We may find new ways to use empty buildings.",
+      "It is unlikely that everyone will work from home.",
+      "I think public transport will improve.",
+      "There is a chance that the meeting will be delayed.",
+      "Our town might have more green spaces in the future."
+    ],
+    "5": [
+      "She suggested going to the theatre.",
+      "We have already watched the final episode.",
+      "I would rather listen to music than watch television.",
+      "He stopped watching the film after ten minutes.",
+      "Did you enjoy the concert last weekend?",
+      "They decided to book tickets in advance."
+    ],
+    "6": [
+      "The app, which is free, helps me plan my day.",
+      "I have been trying to fix this computer all morning.",
+      "The man whose phone I found thanked me.",
+      "She has been using that program since last year.",
+      "This is the device that controls the lights.",
+      "We have been waiting for the update for an hour."
+    ],
+    "7": [
+      "My teacher used to encourage me to ask questions.",
+      "As a child, I would spend hours drawing planes.",
+      "What made you interested in medicine?",
+      "Who helped you prepare for your first interview?",
+      "I did not use to enjoy speaking in public.",
+      "She used to practise every evening after school."
+    ],
+    "8": [
+      "If we leave now, we will catch the train.",
+      "If I knew the answer, I would tell you.",
+      "You will feel more confident if you practise.",
+      "If he had enough money, he would buy a bike.",
+      "What would you do if you lost your phone?",
+      "Unless we work together, we will not finish on time."
+    ],
+    "9": [
+      "He looks much younger than his brother.",
+      "That cannot be her coat because it is too small.",
+      "This photograph is a little brighter than the other one.",
+      "They must be twins because they look so similar.",
+      "She might be upset about the result.",
+      "The new design is slightly more colourful."
+    ],
+    "10": [
+      "The match was cancelled because of heavy rain.",
+      "A good team listens to every member.",
+      "The sports centre was opened last year.",
+      "Each player was given a different role.",
+      "The competition is organised by local volunteers.",
+      "Cooperation often matters more than individual talent."
+    ],
+    "11": [
+      "If we had left earlier, we would have caught the bus.",
+      "You should have saved a copy of your work.",
+      "She would have passed if she had practised more.",
+      "They should not have ignored the warning.",
+      "If I had known about the meeting, I would have come.",
+      "He would not have made the mistake if he had read carefully."
+    ],
+    "12": [
+      "He told me that he had seen the advertisement.",
+      "She asked whether I wanted to join the campaign.",
+      "They said they would contact us the following week.",
+      "I asked him why he trusted that company.",
+      "The poster claimed that the product was safe.",
+      "She told us not to believe everything we read."
+    ]
+  },
+  "b2": {
+    "1": [
+      "How many people have you contacted today?",
+      "I have been trying to reach the manager all morning.",
+      "Who did you discuss the problem with?",
+      "She has already explained her position twice.",
+      "What would you like to know about the proposal?",
+      "They have been exchanging ideas since the meeting."
+    ],
+    "2": [
+      "The storm had damaged the road before we arrived.",
+      "We had been travelling all night and needed a rest.",
+      "After she had packed her bag, she called a taxi.",
+      "I realised that I had left my passport at home.",
+      "They were looking for shelter when they saw a cabin.",
+      "By the time help arrived, everyone had left the building."
+    ],
+    "3": [
+      "This time tomorrow, we will be discussing the budget.",
+      "By Friday, she will have finished the report.",
+      "We are going to invest in better equipment.",
+      "The meeting starts at nine tomorrow morning.",
+      "I will be studying while you are at work.",
+      "By the end of the year, they will have saved enough money."
+    ],
+    "4": [
+      "The invitations have been designed by a local artist.",
+      "We had our kitchen painted last month.",
+      "A new exhibition is being prepared for the summer.",
+      "He got his camera repaired before the trip.",
+      "The building will be restored next year.",
+      "She had her portrait drawn at the festival."
+    ],
+    "5": [
+      "I remember meeting her at a conference.",
+      "Please remember to send the application today.",
+      "He tried restarting the computer.",
+      "She regrets leaving the job so suddenly.",
+      "We stopped talking when the speaker entered.",
+      "I forgot to bring the notes I had prepared."
+    ],
+    "6": [
+      "Several families helped to organise the celebration.",
+      "Neither of the two proposals was accepted.",
+      "Most people in the village know one another.",
+      "Every resident received a copy of the announcement.",
+      "There is little support for closing the library.",
+      "Both neighbours offered to help with the repairs."
+    ],
+    "7": [
+      "They should have informed us about the change.",
+      "He cannot have finished such a long report already.",
+      "You must not enter without permission.",
+      "She may have sent the message to the wrong person.",
+      "We did not need to book because the museum was empty.",
+      "The driver ought to have checked the brakes."
+    ],
+    "8": [
+      "The house where my grandparents lived has been restored.",
+      "The woman carrying the blue bag is our guide.",
+      "Built over a century ago, the station is still in use.",
+      "The book that you recommended was fascinating.",
+      "Students interested in history can join the visit.",
+      "The scientist whose work we discussed is giving a talk."
+    ],
+    "9": [
+      "The musicians played incredibly well.",
+      "We used to meet at the cafe every Friday.",
+      "She is always leaving her keys on the table.",
+      "The restaurant was surprisingly quiet.",
+      "He would often cook for his friends at weekends.",
+      "They spoke so softly that we could hardly hear them."
+    ],
+    "10": [
+      "She bought a lovely small silver ring.",
+      "If the room were brighter, we could see the colours better.",
+      "Unless you listen closely, you will miss the final note.",
+      "The fresh warm bread smelled delicious.",
+      "If I had noticed the sign, I would have stopped.",
+      "He wore a long dark woollen coat."
+    ],
+    "11": [
+      "The editor admitted making a mistake.",
+      "She warned us not to share unverified information.",
+      "He suggested checking several independent sources.",
+      "The reporter claimed to have spoken to a witness.",
+      "They apologised for publishing the wrong photograph.",
+      "She encouraged me to write about my experience."
+    ],
+    "12": [
+      "I wish I could spend more time with my family.",
+      "If only she had accepted the invitation.",
+      "I would rather you called before visiting.",
+      "He wishes he had studied a different subject.",
+      "It is time we started planning for the future.",
+      "Suppose you could live anywhere, where would you go?"
+    ]
+  },
+  "c1": {
+    "1": [
+      "The more carefully we plan, the fewer problems we encounter.",
+      "His confidence has been steadily increasing.",
+      "The new approach is nowhere near as costly as the old one.",
+      "She is constantly looking for ways to improve the service.",
+      "As the city expands, commuting becomes increasingly difficult.",
+      "The situation has been changing more rapidly than expected."
+    ],
+    "2": [
+      "The team's ability to remain calm impressed the spectators.",
+      "By December, she will have been researching the topic for two years.",
+      "The discovery of an unusually well-preserved skeleton attracted attention.",
+      "They had completed several demanding trials before announcing the results.",
+      "A surprisingly small improvement made a considerable difference.",
+      "He has been developing the technique throughout his career."
+    ],
+    "3": [
+      "I do understand your concern, but we need more evidence.",
+      "Neither did the other members of the committee.",
+      "The success of a team depends partly on mutual trust.",
+      "She can lead the discussion, and so can her colleague.",
+      "It was the assistant who noticed the error first.",
+      "What the group needs is a clearer division of responsibilities."
+    ],
+    "4": [
+      "Participants are expected to report any safety concerns.",
+      "The data is thought to have been collected without permission.",
+      "We need not have printed every page of the document.",
+      "The organisation ought to have explained the risks more clearly.",
+      "The decision is said to have surprised several senior officials.",
+      "Each applicant is required to provide evidence of experience."
+    ],
+    "5": [
+      "Whoever leads the project must consult the local residents.",
+      "Very few of the proposals addressed the underlying problem.",
+      "The policy, whose effects are still unclear, will be reviewed next year.",
+      "A substantial number of voters expressed their concerns.",
+      "Whatever the outcome, everyone deserves to be heard.",
+      "The committee rejected most of the recommendations submitted."
+    ],
+    "6": [
+      "I would sooner postpone the meeting than rush the decision.",
+      "She would not admit that the plan had failed.",
+      "The activity involves negotiating with people from different backgrounds.",
+      "He denied having seen the confidential report.",
+      "We cannot help wondering whether the rules are fair.",
+      "They would rather work independently than follow detailed instructions."
+    ],
+    "7": [
+      "If she were to change her mind, we would reconsider the offer.",
+      "Suppose the evidence proved unreliable, what would you recommend?",
+      "It is high time the organisation took these concerns seriously.",
+      "I wish he would listen before making a judgement.",
+      "Were we to ignore the warning, the consequences could be serious.",
+      "She spoke as though she had known about the problem all along."
+    ],
+    "8": [
+      "Having examined the damage, the engineer recommended replacing the panel.",
+      "The substance could have reacted with the water during storage.",
+      "Designed for repeated use, the container reduces waste.",
+      "It cannot have been manufactured recently, given its condition.",
+      "Not knowing the full history, we avoided drawing conclusions.",
+      "The fragments are likely to have come from the same object."
+    ],
+    "9": [
+      "By next month, she will have completed all the assessments.",
+      "He will keep asking questions until he understands the reasoning.",
+      "The course is due to begin in early September.",
+      "This time next year, they will be working in different countries.",
+      "I am about to submit the final version of my application.",
+      "The new methods are likely to transform how students receive feedback."
+    ],
+    "10": [
+      "The unexpectedly rapid spread of the technology raised new questions.",
+      "Rarely do we consider how these products are manufactured.",
+      "Only after the meeting did they acknowledge the difficulty.",
+      "The long-term consequences of the decision remain uncertain.",
+      "A growing awareness of environmental issues has influenced consumer choices.",
+      "Seldom has such a small change attracted so much attention."
+    ],
+    "11": [
+      "Anyone interested in the origins of the language can attend the lecture.",
+      "Whatever conclusions we reach, they must be supported by evidence.",
+      "The documents available provide only a partial explanation.",
+      "Whoever discovered the inscription left no record of the location.",
+      "The people involved in the investigation declined to comment.",
+      "The theory proposed offers an alternative account of the settlement."
+    ],
+    "12": [
+      "She had the old recordings restored by a specialist.",
+      "The researcher urged participants to describe what they remembered.",
+      "He attributed the confusion to a lack of sleep.",
+      "We got the transcript checked before including it in the report.",
+      "The witness denied having discussed the incident with anyone.",
+      "The findings suggest that memory can be influenced by later information."
+    ]
+  }
+}

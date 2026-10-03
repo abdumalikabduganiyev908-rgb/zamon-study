@@ -1,0 +1,54 @@
+VAQTINCHA ADMINISTRATOR — QO‘SHIMCHA YANGILANISH
+
+ZIP ichidagilarni mavjud Zamon loyihasiga ko‘chiring va Replace bosing.
+.env.local, firebase-service-account.json va media/audio papkangizni saqlang.
+
+Terminalda:
+pnpm setup:administrator
+
+Mavjud hisobingizning ism va familiyasini yozing. Yangi hisob yaratilmaydi, parol va Unit/progress saqlanadi. Keyin pnpm dev ni qayta ishga tushiring va mavjud parol bilan Sign in qiling. Settings → Leave Administrator role sizni o‘quvchiga qaytaradi. Agar boshqa Administrator allaqachon yaratilgan bo‘lsa, buyruq uning huquqini o‘zgartirmaydi va rad etiladi.
+
+Push kalitlaringiz hali yo‘q bo‘lsa:
+pnpm setup:push
+
+Chiqqan NEXT_PUBLIC_VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT qatorlarini .env.local va Netlify environment variables’ga yozing. VAPID_SUBJECT haqiqiy saytingizning HTTPS manzili bo‘lsin. Private keyni GitHubga yoki boshqalarga yubormang. Mavjud VAPID kalitlaringiz bo‘lsa shu juftlikni saqlang.
+
+Bu ZIP oldingi yangilanishlarni ham o‘z ichiga oladi.
+
+ZAMON YANGILANISHI — 3-oktabr 2026
+
+1. pnpm dev ishlayotgan terminalda Ctrl+C bosing.
+2. ZIP ichidagi papka va fayllarni mavjud Zamon loyiha papkangizga ko‘chiring. Replace bosing.
+   .env.local, firebase-service-account.json, .git va media/audio papkangizni saqlang. Bu ZIP audiolarni qayta yuklatmaydi.
+3. .env.local oxiriga ikkita yangi qator qo‘shing:
+
+TEACHER_ACCESS_CODE=ozingiz_tanlagan_maxfiy_oqituvchi_kodi
+ADMINISTRATOR_ACCESS_CODE=ozingiz_tanlagan_boshqa_maxfiy_kod
+
+   Namuna qiymatlarini haqiqiy kodlaringizga almashtiring. Kodlar bir-biridan farqli, kamida 12 belgili bo‘lsin. Teacher kodi o‘qituvchilarga beriladi; Administrator kodini faqat o‘zingizda saqlang.
+4. pnpm dev orqali qayta ishga tushiring.
+5. Teacher → kod kiriting → ism, familiya va parol qo‘ying.
+   Administrator kodi bilan bitta Administrator ochiladi.
+   Hozirgi vaqtincha Adminingizni Administrator qilish uchun uning mavjud ism-familiyasi va mavjud parolini kiriting.
+   Mavjud o‘qituvchi Already registered? Sign in orqali kiradi.
+6. Netlify Environment variables’ga ayni ikki kodni kiriting va qayta deploy qiling.
+   Fon bildirishnomalari uchun VAPID sozlamalari va brauzer ruxsati ham kerak.
+
+YANGILIKLAR
+- Listening va Videosda faqat Navigate. Essential audio so‘z darslarida.
+- Har bir Navigate qismida 12 ta mashq: 3 listening, 3 speaking, 2 gapni to‘ldirish, 2 tartiblash, 1 tanlov, 1 erkin yozish.
+- 70 Unit uchun 420 yangi darajaga mos gap. Listening/speaking bir qismda boshqa gaplardan foydalanadi.
+- Speakingda yozish maydoni yo‘q; mikrofon va Chrome/Edge ovozni tanishi kerak.
+- O‘ng yuqorida bildirishnomalar: baho, izoh, vazifa, dars eslatmalari; o‘qilgan deb belgilash va o‘qilmaganlar soni.
+- Administrator → Teachers: o‘qituvchini bloklash/ochish, parolini yangilash.
+- Administrator → Payments: o‘quvchini familiya bo‘yicha qidirish; ism va guruh ham ko‘rinadi.
+- Boshida hamma o‘quvchilar To‘langan. To‘lov sanasi keyingi oyning shu sanasigacha amal qiladi.
+- To‘lanmaganidan 7 kun keyin server dars/audio/AI xizmatlariga kirishni yopadi. To‘langan qilish darhol ochadi.
+- Oy oxiri: 31-yanvar → 28/29-fevral. Sana Toshkent bo‘yicha.
+- Mavjud natijalar va hisoblar o‘chirilmaydi.
+
+VIDEO YUKLAB OLISH
+YouTube videolari tomosha qilinadi. MP4 fayllari hali berilmaganligi uchun video yuklash tugmasi qo‘shilmadi. Fayllar berilgach ulanadi.
+
+SINOV
+Next.js build va TypeScript o‘tdi. Kod/rol, cookie, atomik yagona Administrator, to‘lov sanalari, ruxsatlar, inbox maxfiyligi va 3360 Navigate mashqi tekshirildi. Haqiqiy telefon pushi va mikrofon bu muhitda tekshirilmagan.

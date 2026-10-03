@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "a1",
+    "title": "Navigate Beginner",
+    "level": "A1",
+    "units": [
+      {
+        "id": 1,
+        "title": "First meetings",
+        "grammar": "be: I / you",
+        "sentences": [
+          "I am from Uzbekistan.",
+          "Where are you from?"
+        ],
+        "video": "IpVve2HpfkU",
+        "sections": [
+          {
+            "id": "1.1",
+            "title": "On business or on holiday?"
+          },
+          {
+            "id": "1.2",
+            "title": "Where are you from?"
+          },
+          {
+            "id": "1.3",
+            "title": "How do you spell that?"
+          },
+          {
+            "id": "1.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Questions",
+        "grammar": "be; plurals; subject pronouns",
+        "sentences": [
+          "She is a doctor.",
+          "The books are on the table."
+        ],
+        "video": "04fBHB9gf6s",
+        "sections": [
+          {
+            "id": "2.1",
+            "title": "What’s this in English?"
+          },
+          {
+            "id": "2.2",
+            "title": "What’s your job?"
+          },
+          {
+            "id": "2.3",
+            "title": "Where are they?"
+          },
+          {
+            "id": "2.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "People and possessions",
+        "grammar": "possessives; have got",
+        "sentences": [
+          "This is my brother.",
+          "He has got a small bag."
+        ],
+        "video": "elSKu9IWLqY",
+        "sections": [
+          {
+            "id": "3.1",
+            "title": "My neighbours"
+          },
+          {
+            "id": "3.2",
+            "title": "Possessions"
+          },
+          {
+            "id": "3.3",
+            "title": "Family"
+          },
+          {
+            "id": "3.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "My life",
+        "grammar": "present simple",
+        "sentences": [
+          "I work in a shop.",
+          "She does not work on Sunday."
+        ],
+        "video": "AS8Nwbk2XAo",
+        "sections": [
+          {
+            "id": "4.1",
+            "title": "About me"
+          },
+          {
+            "id": "4.2",
+            "title": "Journeys"
+          },
+          {
+            "id": "4.3",
+            "title": "My day"
+          },
+          {
+            "id": "4.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Style and design",
+        "grammar": "frequency; Wh- questions; present simple",
+        "sentences": [
+          "She usually wears a blue jacket.",
+          "Where does your friend live?"
+        ],
+        "video": "cYB-Sy5NrN4",
+        "sections": [
+          {
+            "id": "5.1",
+            "title": "Clothes style"
+          },
+          {
+            "id": "5.2",
+            "title": "Amazing architecture"
+          },
+          {
+            "id": "5.3",
+            "title": "Styles around the world"
+          },
+          {
+            "id": "5.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Places and facilities",
+        "grammar": "there is / there are",
+        "sentences": [
+          "There is a park near my home.",
+          "There are two shops in my street."
+        ],
+        "video": "6-SJD168DTs",
+        "sections": [
+          {
+            "id": "6.1",
+            "title": "Two towns"
+          },
+          {
+            "id": "6.2",
+            "title": "Is there Wi-Fi?"
+          },
+          {
+            "id": "6.3",
+            "title": "Has each flat got a kitchen?"
+          },
+          {
+            "id": "6.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Skills and interests",
+        "grammar": "can; like + -ing",
+        "sentences": [
+          "I can swim.",
+          "She likes reading books."
+        ],
+        "video": "KlICwlZ3Cn4",
+        "sections": [
+          {
+            "id": "7.1",
+            "title": "She can paint"
+          },
+          {
+            "id": "7.2",
+            "title": "Can you help?"
+          },
+          {
+            "id": "7.3",
+            "title": "I like going out"
+          },
+          {
+            "id": "7.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Our past",
+        "grammar": "was/were; regular past; object pronouns",
+        "sentences": [
+          "We were at home yesterday.",
+          "I visited my friend last week."
+        ],
+        "video": "jA5kNiHk27Q",
+        "sections": [
+          {
+            "id": "8.1",
+            "title": "When we were seven"
+          },
+          {
+            "id": "8.2",
+            "title": "Lives from the past"
+          },
+          {
+            "id": "8.3",
+            "title": "Special moments"
+          },
+          {
+            "id": "8.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Unusual stories",
+        "grammar": "irregular past; negatives; questions",
+        "sentences": [
+          "I went to the park yesterday.",
+          "Did you see your friend last night?"
+        ],
+        "video": "vFc1g9cI_Wk",
+        "sections": [
+          {
+            "id": "9.1",
+            "title": "Happy memories"
+          },
+          {
+            "id": "9.2",
+            "title": "A good excuse"
+          },
+          {
+            "id": "9.3",
+            "title": "News stories"
+          },
+          {
+            "id": "9.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "New places, new projects",
+        "grammar": "going to",
+        "sentences": [
+          "I am going to study tonight.",
+          "We are going to visit Samarkand."
+        ],
+        "video": "3dWRwIjiMR8",
+        "sections": [
+          {
+            "id": "10.1",
+            "title": "We’re going to raise £5,000"
+          },
+          {
+            "id": "10.2",
+            "title": "A new life"
+          },
+          {
+            "id": "10.3",
+            "title": "Café cities"
+          },
+          {
+            "id": "10.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a2",
+    "title": "Navigate Elementary",
+    "level": "A2",
+    "units": [
+      {
+        "id": 1,
+        "title": "People",
+        "grammar": "be; possessives",
+        "sentences": [
+          "My sister is a student.",
+          "This is my father’s phone."
+        ],
+        "video": "M3fwxXcXW50",
+        "sections": [
+          {
+            "id": "1.1",
+            "title": "Multicultural cities"
+          },
+          {
+            "id": "1.2",
+            "title": "Family"
+          },
+          {
+            "id": "1.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "1.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "My day",
+        "grammar": "present simple; frequency",
+        "sentences": [
+          "She usually walks to school.",
+          "I do not watch TV in the morning."
+        ],
+        "video": "oMNyik2wags",
+        "sections": [
+          {
+            "id": "2.1",
+            "title": "A day in the life of a scientist"
+          },
+          {
+            "id": "2.2",
+            "title": "Spending time"
+          },
+          {
+            "id": "2.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "2.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "The world of work",
+        "grammar": "yes/no and Wh- questions",
+        "sentences": [
+          "Does he work in a hospital?",
+          "Where does your mother work?"
+        ],
+        "video": "8bu-5imv-kM",
+        "sections": [
+          {
+            "id": "3.1",
+            "title": "Jobs"
+          },
+          {
+            "id": "3.2",
+            "title": "What do you do?"
+          },
+          {
+            "id": "3.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "3.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Places and things",
+        "grammar": "there is; articles",
+        "sentences": [
+          "There is a library near the station.",
+          "The kitchen is next to the living room."
+        ],
+        "video": "gMH-gKMRbgQ",
+        "sections": [
+          {
+            "id": "4.1",
+            "title": "Underground towns"
+          },
+          {
+            "id": "4.2",
+            "title": "Where I live"
+          },
+          {
+            "id": "4.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "4.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Clothes and shopping",
+        "grammar": "can; present continuous",
+        "sentences": [
+          "I can pay by card.",
+          "She is wearing a blue jacket."
+        ],
+        "video": "8vfF7KSder4",
+        "sections": [
+          {
+            "id": "5.1",
+            "title": "Shopping"
+          },
+          {
+            "id": "5.2",
+            "title": "What is he wearing?"
+          },
+          {
+            "id": "5.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "5.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "The past",
+        "grammar": "was/were; regular past",
+        "sentences": [
+          "We were tired after the journey.",
+          "He finished his homework yesterday."
+        ],
+        "video": "gTLYX6FHb54",
+        "sections": [
+          {
+            "id": "6.1",
+            "title": "Don’t give up!"
+          },
+          {
+            "id": "6.2",
+            "title": "Stories"
+          },
+          {
+            "id": "6.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "6.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Health and fitness",
+        "grammar": "irregular past; negative past",
+        "sentences": [
+          "I went for a walk yesterday.",
+          "She did not eat breakfast."
+        ],
+        "video": "QPJY8XYMlT0",
+        "sections": [
+          {
+            "id": "7.1",
+            "title": "My health, my business"
+          },
+          {
+            "id": "7.2",
+            "title": "Sporting heroes"
+          },
+          {
+            "id": "7.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "7.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Travel and transport",
+        "grammar": "past questions; should; have to",
+        "sentences": [
+          "Did you travel by train?",
+          "You should take a warm coat."
+        ],
+        "video": "dPWSXCIIl1Y",
+        "sections": [
+          {
+            "id": "8.1",
+            "title": "I went to…"
+          },
+          {
+            "id": "8.2",
+            "title": "Journeys"
+          },
+          {
+            "id": "8.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "8.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Cooking and eating",
+        "grammar": "countability; quantifiers",
+        "sentences": [
+          "There is some rice in the bowl.",
+          "How much water do we need?"
+        ],
+        "video": "lVmHiQIZsdE",
+        "sections": [
+          {
+            "id": "9.1",
+            "title": "Food and drink"
+          },
+          {
+            "id": "9.2",
+            "title": "In the kitchen"
+          },
+          {
+            "id": "9.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "9.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "The world around us",
+        "grammar": "comparatives; superlatives",
+        "sentences": [
+          "Today is warmer than yesterday.",
+          "This is the highest mountain in the area."
+        ],
+        "video": "GbPIqM5rwFo",
+        "sections": [
+          {
+            "id": "10.1",
+            "title": "The weather"
+          },
+          {
+            "id": "10.2",
+            "title": "Natural wonders"
+          },
+          {
+            "id": "10.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "10.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Working together",
+        "grammar": "going to; infinitive of purpose",
+        "sentences": [
+          "We are going to clean the park.",
+          "I use my phone to check the timetable."
+        ],
+        "video": "9jQsRWj28fI",
+        "sections": [
+          {
+            "id": "11.1",
+            "title": "Community spirit"
+          },
+          {
+            "id": "11.2",
+            "title": "Challenges"
+          },
+          {
+            "id": "11.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "11.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Culture and arts",
+        "grammar": "present perfect; past simple",
+        "sentences": [
+          "I have seen that film twice.",
+          "We visited the museum last Saturday."
+        ],
+        "video": "fkiwJ7kzHS0",
+        "sections": [
+          {
+            "id": "12.1",
+            "title": "Artistic ability"
+          },
+          {
+            "id": "12.2",
+            "title": "At the movies"
+          },
+          {
+            "id": "12.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "12.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b1",
+    "title": "Navigate Pre-intermediate",
+    "level": "B1",
+    "units": [
+      {
+        "id": 1,
+        "title": "Time",
+        "grammar": "question forms; frequency",
+        "sentences": [
+          "How often do you meet your friends?",
+          "I usually spend my evenings reading."
+        ],
+        "video": "ut02_ZQ1vL8",
+        "sections": [
+          {
+            "id": "1.1",
+            "title": "Do you live in the past, present or future?"
+          },
+          {
+            "id": "1.2",
+            "title": "Free time"
+          },
+          {
+            "id": "1.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "1.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Inside outside",
+        "grammar": "present simple/continuous; relatives",
+        "sentences": [
+          "I am staying with my cousin this week.",
+          "A balcony is a place where you can sit outside."
+        ],
+        "video": "Y51ojeLORA8",
+        "sections": [
+          {
+            "id": "2.1",
+            "title": "Street life"
+          },
+          {
+            "id": "2.2",
+            "title": "Home life"
+          },
+          {
+            "id": "2.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "2.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Going up, going down",
+        "grammar": "past simple/continuous",
+        "sentences": [
+          "I was waiting when the lift stopped.",
+          "She felt relieved when the doors opened."
+        ],
+        "video": "Ht-9c7tVbrs",
+        "sections": [
+          {
+            "id": "3.1",
+            "title": "The man who fell to Earth"
+          },
+          {
+            "id": "3.2",
+            "title": "Going up… One man’s lift nightmare"
+          },
+          {
+            "id": "3.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "3.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Changes and challenges",
+        "grammar": "verb patterns; future plans",
+        "sentences": [
+          "I decided to change my routine.",
+          "We are meeting our teacher tomorrow."
+        ],
+        "video": "JdcOoIUQmOk",
+        "sections": [
+          {
+            "id": "4.1",
+            "title": "Changing directions"
+          },
+          {
+            "id": "4.2",
+            "title": "Living without the Internet"
+          },
+          {
+            "id": "4.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "4.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Stuff and things",
+        "grammar": "articles; quantifiers",
+        "sentences": [
+          "I bought a useful notebook.",
+          "We have very little time left."
+        ],
+        "video": "kIMU94oQ8Po",
+        "sections": [
+          {
+            "id": "5.1",
+            "title": "Your world in objects"
+          },
+          {
+            "id": "5.2",
+            "title": "It’s all about the money"
+          },
+          {
+            "id": "5.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "5.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "People",
+        "grammar": "comparisons; present perfect",
+        "sentences": [
+          "My sister is more patient than I am.",
+          "He has already called his family."
+        ],
+        "video": "7puKrFlVWC0",
+        "sections": [
+          {
+            "id": "6.1",
+            "title": "The quiet revolution"
+          },
+          {
+            "id": "6.2",
+            "title": "A long way home"
+          },
+          {
+            "id": "6.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "6.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Travel",
+        "grammar": "will/might; indefinite pronouns",
+        "sentences": [
+          "The journey might take two hours.",
+          "Someone left a suitcase in the hotel."
+        ],
+        "video": "rXYvJvnIR08",
+        "sections": [
+          {
+            "id": "7.1",
+            "title": "On the move"
+          },
+          {
+            "id": "7.2",
+            "title": "Getting away"
+          },
+          {
+            "id": "7.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "7.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Language and learning",
+        "grammar": "ability; obligation",
+        "sentences": [
+          "I was able to understand the instructions.",
+          "Students have to bring their notebooks."
+        ],
+        "video": "S9_aQkwrRX8",
+        "sections": [
+          {
+            "id": "8.1",
+            "title": "The amazing human brain"
+          },
+          {
+            "id": "8.2",
+            "title": "The secrets of a successful education"
+          },
+          {
+            "id": "8.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "8.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Body and mind",
+        "grammar": "first conditional; future time clauses",
+        "sentences": [
+          "If you exercise regularly, you will feel better.",
+          "I will call you when I arrive."
+        ],
+        "video": "Q-AEpZ55yJY",
+        "sections": [
+          {
+            "id": "9.1",
+            "title": "The rise and fall of the handshake"
+          },
+          {
+            "id": "9.2",
+            "title": "Going back to nature"
+          },
+          {
+            "id": "9.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "9.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Food",
+        "grammar": "-ing forms; passive",
+        "sentences": [
+          "Cooking at home can save money.",
+          "These vegetables are grown locally."
+        ],
+        "video": "pcjhZ-J3KJw",
+        "sections": [
+          {
+            "id": "10.1",
+            "title": "A question of taste"
+          },
+          {
+            "id": "10.2",
+            "title": "Canned dreams"
+          },
+          {
+            "id": "10.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "10.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "World",
+        "grammar": "second conditional; used to",
+        "sentences": [
+          "If I had more time, I would volunteer.",
+          "People used to read the news in newspapers."
+        ],
+        "video": "XcAaC8oOoww",
+        "sections": [
+          {
+            "id": "11.1",
+            "title": "Making the world a better place"
+          },
+          {
+            "id": "11.2",
+            "title": "Breaking news"
+          },
+          {
+            "id": "11.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "11.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Work",
+        "grammar": "for/since; infinitives",
+        "sentences": [
+          "She has worked here for three years.",
+          "He hopes to become an engineer."
+        ],
+        "video": "8Taqk_wLGfk",
+        "sections": [
+          {
+            "id": "12.1",
+            "title": "The working environment"
+          },
+          {
+            "id": "12.2",
+            "title": "The changing face of work"
+          },
+          {
+            "id": "12.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "12.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b1plus",
+    "title": "Navigate Intermediate",
+    "level": "B1+",
+    "units": [
+      {
+        "id": 1,
+        "title": "Trends",
+        "grammar": "present tenses; state verbs",
+        "sentences": [
+          "More people are shopping online these days.",
+          "I have known my closest friend for years."
+        ],
+        "video": "8icT5GNEt3E",
+        "sections": [
+          {
+            "id": "1.1",
+            "title": "Are you really my friend?"
+          },
+          {
+            "id": "1.2",
+            "title": "Why spending’s #trending"
+          },
+          {
+            "id": "1.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "1.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "What a story!",
+        "grammar": "narrative forms; sequencing",
+        "sentences": [
+          "We had left the house before the rain started.",
+          "While I was walking, I heard someone call my name."
+        ],
+        "video": "Pf9EhCXRlrg",
+        "sections": [
+          {
+            "id": "2.1",
+            "title": "I’ll never forget that day"
+          },
+          {
+            "id": "2.2",
+            "title": "Unbelievable?"
+          },
+          {
+            "id": "2.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "2.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Life skills",
+        "grammar": "ability; modal verbs",
+        "sentences": [
+          "I managed to solve the problem myself.",
+          "You must not share your password."
+        ],
+        "video": "e2H8gsDMBh0",
+        "sections": [
+          {
+            "id": "3.1",
+            "title": "Challenges"
+          },
+          {
+            "id": "3.2",
+            "title": "Faking it?"
+          },
+          {
+            "id": "3.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "3.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Space",
+        "grammar": "predictions; probability",
+        "sentences": [
+          "I think cities will become greener.",
+          "It is likely to rain this afternoon."
+        ],
+        "video": "WLmUk1e4hT4",
+        "sections": [
+          {
+            "id": "4.1",
+            "title": "Living on water"
+          },
+          {
+            "id": "4.2",
+            "title": "Forest bathing"
+          },
+          {
+            "id": "4.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "4.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Entertainment",
+        "grammar": "verb patterns; present perfect/past",
+        "sentences": [
+          "I enjoy watching films with subtitles.",
+          "I saw an interesting documentary last night."
+        ],
+        "video": "2jjLmSC2lRc",
+        "sections": [
+          {
+            "id": "5.1",
+            "title": "Universally popular?"
+          },
+          {
+            "id": "5.2",
+            "title": "Mosquito smasher!"
+          },
+          {
+            "id": "5.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "5.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "In control?",
+        "grammar": "relative clauses; present perfect continuous",
+        "sentences": [
+          "The device, which I bought last year, still works well.",
+          "It has been raining since this morning."
+        ],
+        "video": "LZQX1C_0X0A",
+        "sections": [
+          {
+            "id": "6.1",
+            "title": "Man and machine"
+          },
+          {
+            "id": "6.2",
+            "title": "Controlling the weather?"
+          },
+          {
+            "id": "6.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "6.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Ambitions",
+        "grammar": "used to/would; question forms",
+        "sentences": [
+          "I used to dream of becoming a pilot.",
+          "Who inspired you to choose this career?"
+        ],
+        "video": "5QL_fQJZWsU",
+        "sections": [
+          {
+            "id": "7.1",
+            "title": "Good prospects"
+          },
+          {
+            "id": "7.2",
+            "title": "Ask an expert"
+          },
+          {
+            "id": "7.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "7.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Choices",
+        "grammar": "real and unreal conditionals",
+        "sentences": [
+          "If I get enough sleep, I work better.",
+          "If I were you, I would ask for advice."
+        ],
+        "video": "46Y4zIr2jDU",
+        "sections": [
+          {
+            "id": "8.1",
+            "title": "World happiness report"
+          },
+          {
+            "id": "8.2",
+            "title": "What makes a hero?"
+          },
+          {
+            "id": "8.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "8.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Appearances",
+        "grammar": "comparisons; deduction",
+        "sentences": [
+          "This painting is far more detailed than that one.",
+          "She must be tired after such a long journey."
+        ],
+        "video": "hcuryZ24i3c",
+        "sections": [
+          {
+            "id": "9.1",
+            "title": "Real beauty?"
+          },
+          {
+            "id": "9.2",
+            "title": "Paintings"
+          },
+          {
+            "id": "9.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "9.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Compete and cooperate",
+        "grammar": "passives; articles",
+        "sentences": [
+          "The project was funded by local residents.",
+          "Teamwork is an important part of sport."
+        ],
+        "video": "J845VhtJkHA",
+        "sections": [
+          {
+            "id": "10.1",
+            "title": "Crowd-funding"
+          },
+          {
+            "id": "10.2",
+            "title": "Competitive sport"
+          },
+          {
+            "id": "10.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "10.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Consequences",
+        "grammar": "third conditional; should have",
+        "sentences": [
+          "If I had checked the address, I would not have got lost.",
+          "You should have asked before posting the photo."
+        ],
+        "video": "9n-xttFoUEk",
+        "sections": [
+          {
+            "id": "11.1",
+            "title": "Outlaws"
+          },
+          {
+            "id": "11.2",
+            "title": "I should never have clicked send!"
+          },
+          {
+            "id": "11.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "11.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Influence",
+        "grammar": "reported statements and questions",
+        "sentences": [
+          "She said that the advert was misleading.",
+          "He asked me whether I agreed with the proposal."
+        ],
+        "video": "-ySE15h4dRE",
+        "sections": [
+          {
+            "id": "12.1",
+            "title": "Advertising"
+          },
+          {
+            "id": "12.2",
+            "title": "How to persuade and influence people"
+          },
+          {
+            "id": "12.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "12.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b2",
+    "title": "Navigate Upper-intermediate",
+    "level": "B2",
+    "units": [
+      {
+        "id": 1,
+        "title": "Communication",
+        "grammar": "question types; perfect tenses",
+        "sentences": [
+          "How long have you been waiting for a reply?",
+          "I have written three emails this morning."
+        ],
+        "video": "QFyQjXIijxE",
+        "sections": [
+          {
+            "id": "1.1",
+            "title": "The rules of conversation"
+          },
+          {
+            "id": "1.2",
+            "title": "The letter is dead, long live the letter!"
+          },
+          {
+            "id": "1.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "1.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Escape",
+        "grammar": "past events; past perfect",
+        "sentences": [
+          "By the time we reached the station, the train had left.",
+          "We had been walking for hours when we found shelter."
+        ],
+        "video": "Aml8KciXmAU",
+        "sections": [
+          {
+            "id": "2.1",
+            "title": "Out of your comfort zone"
+          },
+          {
+            "id": "2.2",
+            "title": "An extraordinary escape"
+          },
+          {
+            "id": "2.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "2.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Investing",
+        "grammar": "future forms",
+        "sentences": [
+          "By next year, I will have completed the course.",
+          "I will be working on the project tomorrow afternoon."
+        ],
+        "video": "GnxcyMZWTP8",
+        "sections": [
+          {
+            "id": "3.1",
+            "title": "Invest in your future"
+          },
+          {
+            "id": "3.2",
+            "title": "Best ways to invest your time"
+          },
+          {
+            "id": "3.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "3.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Creativity",
+        "grammar": "passives; causative have/get",
+        "sentences": [
+          "The bridge is being repaired this month.",
+          "She had her laptop repaired by a specialist."
+        ],
+        "video": "BxKPip7JcI8",
+        "sections": [
+          {
+            "id": "4.1",
+            "title": "Inventive ideas"
+          },
+          {
+            "id": "4.2",
+            "title": "Creative environments"
+          },
+          {
+            "id": "4.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "4.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Mind",
+        "grammar": "verb patterns; infinitives",
+        "sentences": [
+          "I remember visiting that place as a child.",
+          "He stopped to check the map."
+        ],
+        "video": "HELhvBQqOq8",
+        "sections": [
+          {
+            "id": "5.1",
+            "title": "As if it were yesterday…"
+          },
+          {
+            "id": "5.2",
+            "title": "Bored!"
+          },
+          {
+            "id": "5.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "5.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Community",
+        "grammar": "articles; determiners",
+        "sentences": [
+          "The people in our neighbourhood are very friendly.",
+          "Most of the residents supported the plan."
+        ],
+        "video": "RryPYZHyfFA",
+        "sections": [
+          {
+            "id": "6.1",
+            "title": "Crossing cultures"
+          },
+          {
+            "id": "6.2",
+            "title": "Alone or together?"
+          },
+          {
+            "id": "6.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "6.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Rules",
+        "grammar": "present and past modals",
+        "sentences": [
+          "You ought to check the rules before you apply.",
+          "He might have misunderstood the instructions."
+        ],
+        "video": "Wwo-8juemhs",
+        "sections": [
+          {
+            "id": "7.1",
+            "title": "Crime and justice"
+          },
+          {
+            "id": "7.2",
+            "title": "Rules at work"
+          },
+          {
+            "id": "7.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "7.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Old and new",
+        "grammar": "relative and participle clauses",
+        "sentences": [
+          "The student whose design won is in my class.",
+          "Designed to save energy, the device switches off automatically."
+        ],
+        "video": "SD9EQPbMOqM",
+        "sections": [
+          {
+            "id": "8.1",
+            "title": "The Internet of Things"
+          },
+          {
+            "id": "8.2",
+            "title": "Gen X, Gen Y, Gen Z"
+          },
+          {
+            "id": "8.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "8.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Nightlife",
+        "grammar": "adjectives/adverbs; habits",
+        "sentences": [
+          "She speaks remarkably clearly even when she is tired.",
+          "I would often stay up late when I was younger."
+        ],
+        "video": "CwyCFYHTyUM",
+        "sections": [
+          {
+            "id": "9.1",
+            "title": "Nightlife"
+          },
+          {
+            "id": "9.2",
+            "title": "Sleep"
+          },
+          {
+            "id": "9.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "9.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Senses",
+        "grammar": "adjective order; conditionals",
+        "sentences": [
+          "He bought a beautiful old wooden chair.",
+          "Unless you look carefully, you may miss the difference."
+        ],
+        "video": "vFid3rk9ob8",
+        "sections": [
+          {
+            "id": "10.1",
+            "title": "Can you believe your eyes?"
+          },
+          {
+            "id": "10.2",
+            "title": "Sense of humour"
+          },
+          {
+            "id": "10.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "10.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Media",
+        "grammar": "reported speech; reporting verbs",
+        "sentences": [
+          "The journalist denied inventing the story.",
+          "She advised me to check the original source."
+        ],
+        "video": "RO7vo7s6AJk",
+        "sections": [
+          {
+            "id": "11.1",
+            "title": "Television and news"
+          },
+          {
+            "id": "11.2",
+            "title": "Positive news"
+          },
+          {
+            "id": "11.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "11.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Life stages",
+        "grammar": "unreal situations; wish",
+        "sentences": [
+          "I wish I had taken that opportunity.",
+          "If only we lived closer to our relatives."
+        ],
+        "video": "nTUVguyyr7c",
+        "sections": [
+          {
+            "id": "12.1",
+            "title": "Nearest and dearest"
+          },
+          {
+            "id": "12.2",
+            "title": "If I could turn back time…"
+          },
+          {
+            "id": "12.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "12.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c1",
+    "title": "Navigate Advanced",
+    "level": "C1",
+    "units": [
+      {
+        "id": 1,
+        "title": "Change",
+        "grammar": "comparisons; continuous forms",
+        "sentences": [
+          "The faster we work, the more likely we are to make mistakes.",
+          "She has been gradually adapting to the new routine."
+        ],
+        "video": "Gz6k7NW5Tvk",
+        "sections": [
+          {
+            "id": "1.1",
+            "title": "Up to speed?"
+          },
+          {
+            "id": "1.2",
+            "title": "Change"
+          },
+          {
+            "id": "1.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "1.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Feats",
+        "grammar": "noun phrases; perfect forms",
+        "sentences": [
+          "The remarkable ability of some animals to adapt surprises scientists.",
+          "By then, the researchers had been studying the problem for years."
+        ],
+        "video": "40TWJpD_nYM",
+        "sections": [
+          {
+            "id": "2.1",
+            "title": "Feats of nature"
+          },
+          {
+            "id": "2.2",
+            "title": "Engineering feats"
+          },
+          {
+            "id": "2.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "2.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Team",
+        "grammar": "auxiliaries; articles",
+        "sentences": [
+          "I did appreciate the help, even though I seemed distracted.",
+          "Effective leadership requires patience as well as confidence."
+        ],
+        "video": "gucWqndKbsI",
+        "sections": [
+          {
+            "id": "3.1",
+            "title": "The perfect team"
+          },
+          {
+            "id": "3.2",
+            "title": "Team game"
+          },
+          {
+            "id": "3.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "3.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Responsibility",
+        "grammar": "obligation; passives",
+        "sentences": [
+          "The organisers are supposed to inform everyone of the changes.",
+          "The proposal is believed to have received widespread support."
+        ],
+        "video": "kR95fwaZ5NY",
+        "sections": [
+          {
+            "id": "4.1",
+            "title": "A sense of responsibility"
+          },
+          {
+            "id": "4.2",
+            "title": "The caring generation"
+          },
+          {
+            "id": "4.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "4.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Power",
+        "grammar": "relative clauses; quantifiers",
+        "sentences": [
+          "Whatever happens, we should listen to those affected by the decision.",
+          "Only a small proportion of the funding reached the community."
+        ],
+        "video": "X6r1px600fs",
+        "sections": [
+          {
+            "id": "5.1",
+            "title": "Who holds the power?"
+          },
+          {
+            "id": "5.2",
+            "title": "The power of…"
+          },
+          {
+            "id": "5.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "5.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Play",
+        "grammar": "would; verb patterns",
+        "sentences": [
+          "I would rather spend the evening outdoors than stay inside.",
+          "The new policy involves working more closely with local groups."
+        ],
+        "video": "R3DwnH5mI2I",
+        "sections": [
+          {
+            "id": "6.1",
+            "title": "Play games and save the planet?"
+          },
+          {
+            "id": "6.2",
+            "title": "The invention of leisure"
+          },
+          {
+            "id": "6.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "6.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Emotion and reason",
+        "grammar": "hypotheses; unreality",
+        "sentences": [
+          "Suppose you were offered the position, would you accept it?",
+          "It is high time we reconsidered our priorities."
+        ],
+        "video": "C7vSg3hp1So",
+        "sections": [
+          {
+            "id": "7.1",
+            "title": "Fooled by our feelings"
+          },
+          {
+            "id": "7.2",
+            "title": "Embarrassment"
+          },
+          {
+            "id": "7.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "7.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Plastic",
+        "grammar": "speculation; participle clauses",
+        "sentences": [
+          "The material may well have been damaged during transport.",
+          "Having considered the alternatives, we chose a reusable container."
+        ],
+        "video": "s5BINOP3N_8",
+        "sections": [
+          {
+            "id": "8.1",
+            "title": "The multi-purpose material"
+          },
+          {
+            "id": "8.2",
+            "title": "My life without…"
+          },
+          {
+            "id": "8.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "8.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Learning",
+        "grammar": "uses of will; future",
+        "sentences": [
+          "He will insist on checking every detail before submitting his work.",
+          "By the end of the decade, teaching methods will have changed considerably."
+        ],
+        "video": "Cf0OqzuoGrU",
+        "sections": [
+          {
+            "id": "9.1",
+            "title": "The best way to learn"
+          },
+          {
+            "id": "9.2",
+            "title": "The future of higher education"
+          },
+          {
+            "id": "9.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "9.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "New",
+        "grammar": "noun phrases; adverbial position",
+        "sentences": [
+          "The rapid growth of contactless payments has changed consumer habits.",
+          "Only recently have we begun to question these assumptions."
+        ],
+        "video": "IyN-DxyCET4",
+        "sections": [
+          {
+            "id": "10.1",
+            "title": "New ways to pay"
+          },
+          {
+            "id": "10.2",
+            "title": "Live!"
+          },
+          {
+            "id": "10.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "10.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Origins",
+        "grammar": "adjective position; whoever/whatever",
+        "sentences": [
+          "The people responsible for the research published their findings.",
+          "Whatever the explanation, the evidence deserves careful consideration."
+        ],
+        "video": "hPGFpTPlYeI",
+        "sections": [
+          {
+            "id": "11.1",
+            "title": "Origins of language"
+          },
+          {
+            "id": "11.2",
+            "title": "Origins of world food"
+          },
+          {
+            "id": "11.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "11.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Memory",
+        "grammar": "causatives; reporting verbs",
+        "sentences": [
+          "We had the results checked by an independent researcher.",
+          "The report attributes the improvement to regular practice."
+        ],
+        "video": "9080CUQzmVc",
+        "sections": [
+          {
+            "id": "12.1",
+            "title": "Types of memory"
+          },
+          {
+            "id": "12.2",
+            "title": "Improving your memory"
+          },
+          {
+            "id": "12.3",
+            "title": "Vocabulary and skills development"
+          },
+          {
+            "id": "12.4",
+            "title": "Speaking and writing"
+          }
+        ]
+      }
+    ]
+  }
+]

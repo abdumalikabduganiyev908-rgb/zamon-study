@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.netlify/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+
+/media/
+
+node_modules
+
+/firebase-service-account.json
+*-firebase-adminsdk-*.json

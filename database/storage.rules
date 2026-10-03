@@ -1,0 +1,7 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Audio is served with one-hour signed URLs after school login checks.
+    match /{allPaths=**} { allow read, write: if false; }
+  }
+}
