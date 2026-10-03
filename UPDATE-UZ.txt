@@ -1,3 +1,6 @@
+TAB NOMI VA LOGO
+Brauzer tabida Zamon nomi va yangi ZAMON LEARNING CENTRE rasmi. Fayllarni ko‘chirgach dev serverni qayta ishga tushiring. Netlify uchun git add . → commit → push, deploy tugagach Ctrl+Shift+R bosing. Eski sayt havolasi o‘z-o‘zidan yangilanmaydi; yangi Zamon deploy manzilini oching.
+
 VAQTINCHA ADMINISTRATOR — QO‘SHIMCHA YANGILANISH
 
 ZIP ichidagilarni mavjud Zamon loyihasiga ko‘chiring va Replace bosing.

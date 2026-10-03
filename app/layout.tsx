@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ESSENTIAL MASTERY",
+  title: {default:"Zamon",template:"%s | Zamon"},
   description: "Learn English with Essential and Navigate: vocabulary, listening, speaking and teacher-guided lessons.",
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/zamon-logo.png",
+    shortcut: "/zamon-logo.png",
+    apple: "/zamon-logo.png",
   },
 };
 
