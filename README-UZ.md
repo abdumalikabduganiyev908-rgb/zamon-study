@@ -187,3 +187,7 @@ Profilning book_tracks maydonida har bir yo‘nalishning kitobi, ochilgan UNITi 
 ## Umumiy kodlar va Owner kirishi
 
 Teacher, Administrator va Owner kodlari barcha markazlar uchun umumiy. Owner bir vaqtda 3 ta faol brauzer/qurilmada kirishi mumkin; to‘rtinchi qurilma kira olmaydi. Avval boshqa qurilmada hisobdan chiqish kerak. Bir brauzerdan qayta kirish eski sessiyani almashtiradi. Ownerda chiqish tugmasi faqat Settings / Sozlamalarda turadi. Sign out / Hisobdan chiqish shu brauzerdagi sessiyani yopib, ro‘yxatdan o‘tish oynasini ochadi. Boshqa brauzer yoki profil alohida qurilma hisoblanadi.
+
+## Aniq UNIT tanlash
+
+Teacher, Administrator, Admin va Owner: Students → o‘quvchi profili → Navigate · Choose Unit yoki Essential · Choose Unit. Registerdagi kabi kitob va UNITni tanlab Save bosing. Navigate darsi ham tanlanadi. Faqat tanlangan yo‘nalish yangilanadi; boshqa yo‘nalish, guruh va mavjud natijalar saqlanadi. Hisobni o‘chirish va qayta register qilish shart emas.

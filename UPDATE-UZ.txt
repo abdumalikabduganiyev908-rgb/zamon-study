@@ -1,3 +1,11 @@
+LINGORA — TUGALLANGAN KITOB VA UNIT BELGISI
+
+Darslari va UNIT testi tugatilgan UNIT kartasida ✓ turadi. Kitobdagi barcha UNITlar tugatilgach kitob kartasida ham ✓ chiqadi. Ochiq UNIT yoki qo‘lda tanlangan UNIT avtomatik tugatilgan hisoblanmaydi.
+
+LINGORA — ANIQ UNIT TANLASH
+
+Students / O‘quvchilar → profil ichidagi Navigate · Choose Unit va Essential · Choose Unit tugmalaridan registerdagidek kitob, UNIT va Navigate darsini aniq tanlash mumkin. Teacher, Administrator, Admin va Owner uchun ishlaydi. Ikki yo‘nalish alohida saqlanadi. Profilni o‘chirish yoki qayta register qilish shart emas; mavjud natijalar saqlanadi.
+
 LINGORA — UMUMIY KODLAR VA OWNER QURILMALARI
 
 Teacher, Administrator va Owner kodlari barcha markazlar uchun umumiy. Markaz tanlash faqat profilni qaysi markazga biriktirishni bildiradi. Owner kodi markaz tanlovidan mustaqil ishlaydi. Xato kod yozuvi markazga bog‘lanmagan qilib tuzatildi. Owner uchun ko‘pi bilan 3 faol brauzer/qurilma kirishi saqlanadi. 4-qurilmadan kirish rad etiladi. Avval boshqa qurilmada hisobdan chiqish kerak. Bir brauzerdan qayta kirish yangi qurilma bo‘lib hisoblanmaydi; boshqa brauzer/profil alohida qurilma hisoblanadi. Ownerda chiqish tugmasi faqat Settings / Sozlamalarda turadi. U shu brauzerdagi kirishni yopib, ro‘yxatdan o‘tish oynasini ochadi. Netlifyda OWNER_ACCESS_CODE o‘zgarmaydi: .env.localdagi shu qiymat environment variablega ham kiritilgan bo‘lsin.
