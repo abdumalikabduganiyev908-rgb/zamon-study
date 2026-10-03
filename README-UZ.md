@@ -183,3 +183,7 @@ Mahalliy sinov: pnpm dev → Essential Book 2 → Unit 1 → anxious. Birinchi t
 NAVIGATE + ESSENTIAL BIR VAQTDA
 Ro‘yxatdan o‘tishda ikkita alohida tanlov bor: Navigate asosiy kitobi va uning UNIT/darsi; Essential qo‘shimcha kitobi va uning UNITi. Essentialda so‘z tanlash maydoni yo‘q, yangi UNIT birinchi so‘zidan boshlanadi va dastlab 3 ta so‘z ochiq turadi. Ikki yo‘nalish bir-birini tugatishni kutmaydi.
 Profilning book_tracks maydonida har bir yo‘nalishning kitobi, ochilgan UNITi va boshlash nuqtasi saqlanadi. Eski profillar uchun mavjud kitobning UNIT/progressi saqlanadi, yetishmagan yo‘nalish Beginner/Essential 1 UNIT 1dan boshlanadi. O‘qituvchi Students → profil → Edit access & group orqali ikkalasining boshlash joyini alohida o‘zgartiradi. Profil ostida Navigate va Essential uchun alohida Approve next Unit tugmalari bor. Faqat guruhni o‘zgartirish boshlash nuqtalarini yangilamaydi.
+
+## Umumiy kodlar va Owner kirishi
+
+Teacher, Administrator va Owner kodlari barcha markazlar uchun umumiy. Owner bir vaqtda 3 ta faol brauzer/qurilmada kirishi mumkin; to‘rtinchi qurilma kira olmaydi. Avval boshqa qurilmada hisobdan chiqish kerak. Bir brauzerdan qayta kirish eski sessiyani almashtiradi. Ownerda chiqish tugmasi faqat Settings / Sozlamalarda turadi. Sign out / Hisobdan chiqish shu brauzerdagi sessiyani yopib, ro‘yxatdan o‘tish oynasini ochadi. Boshqa brauzer yoki profil alohida qurilma hisoblanadi.

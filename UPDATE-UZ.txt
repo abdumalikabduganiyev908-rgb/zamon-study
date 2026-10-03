@@ -1,3 +1,7 @@
+LINGORA — UMUMIY KODLAR VA OWNER QURILMALARI
+
+Teacher, Administrator va Owner kodlari barcha markazlar uchun umumiy. Markaz tanlash faqat profilni qaysi markazga biriktirishni bildiradi. Owner kodi markaz tanlovidan mustaqil ishlaydi. Xato kod yozuvi markazga bog‘lanmagan qilib tuzatildi. Owner uchun ko‘pi bilan 3 faol brauzer/qurilma kirishi saqlanadi. 4-qurilmadan kirish rad etiladi. Avval boshqa qurilmada hisobdan chiqish kerak. Bir brauzerdan qayta kirish yangi qurilma bo‘lib hisoblanmaydi; boshqa brauzer/profil alohida qurilma hisoblanadi. Ownerda chiqish tugmasi faqat Settings / Sozlamalarda turadi. U shu brauzerdagi kirishni yopib, ro‘yxatdan o‘tish oynasini ochadi. Netlifyda OWNER_ACCESS_CODE o‘zgarmaydi: .env.localdagi shu qiymat environment variablega ham kiritilgan bo‘lsin.
+
 LINGORA — NAVIGATE VA ESSENTIAL PARALLEL
 
 Ro‘yxatdan o‘tishda Navigate asosiy kurs va Essential qo‘shimcha lug‘at kitobi alohida tanlanadi. Har birida o‘z kitobi, UNITi va boshlash darsi bor. Essential uchun so‘z tanlanmaydi: yangi tanlangan UNIT birinchi so‘zidan boshlanadi, avval 3 ta so‘z ochiladi. Ikkalasini bir vaqtning o‘zida o‘qish mumkin. O‘qituvchi har birining keyingi UNITini alohida tasdiqlaydi va profil oynasida ikkalasini tahrirlay oladi. Eski hisobdagi mavjud kitob va progress saqlanadi; yetishmagan yo‘nalish 1-kitob/Beginner UNIT 1 dan ochiladi. O‘qituvchi kerakli boshlash joyini o‘zgartirishi mumkin.
@@ -25,7 +29,7 @@ Owner kodini o‘zingiz tanlasangiz, .env.local ichida bitta OWNER_ACCESS_CODE=.
 Tasodifiy Owner kodi yaratishning ixtiyoriy yo‘li:
 1. Terminalda node scripts/setup-owner.mjs buyrug‘ini bajaring.
 2. Chiqqan OWNER_ACCESS_CODE qatorini .env.local fayliga va deploy qilganda Netlify environment variablesga qo‘shing. Bu maxfiy kod; GitHubga yubormang.
-3. Serverni qayta ishga tushiring. Teacher → Enter code joyiga shu kodni kiriting. Owner profili avtomatik yaratiladi va boshqa ma’lumot so‘ralmaydi. To‘g‘ri kod bilan kirishlar soni cheklanmaydi.
+3. Serverni qayta ishga tushiring. Teacher → Enter code joyiga shu kodni kiriting. Owner profili avtomatik yaratiladi va boshqa ma’lumot so‘ralmaydi. Owner bir vaqtda ko‘pi bilan 3 faol brauzer/qurilmadan kirishi mumkin. Bo‘sh joy bo‘lmasa boshqa qurilmadan hisobdan chiqish kerak.
 4. Learning centres bo‘limidan markaz qo‘shing yoki tanlang. Hamma markazlarni ko‘rish mumkin; guruh va vazifa yaratish uchun bir markazni tanlang.
 5. Faqat Owner o‘quvchi yoki xodim profilidagi markazni almashtira oladi. Uning shaxsiy progressi va qaydlari birga ko‘chadi, eski guruhdan chiqadi, qayta kirishi kerak bo‘ladi.
 

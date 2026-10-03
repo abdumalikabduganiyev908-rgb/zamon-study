@@ -154,3 +154,27 @@ export async function moveSchoolUserCenter(userId,centerId){
  if(writes.length>450)throw new Error('This account has too many records for one atomic move. No data was changed.');
  await request(':commit','POST',{writes});return true;
 }
+
+// Serialize Owner sign-ins across servers, keeping at most three active browser devices.
+export async function createOwnerSession(session,deviceId,currentToken=''){
+ if(!/^[a-f0-9]{64}$/.test(session.token)||!/^[-a-zA-Z0-9_]{1,128}$/.test(session.user_id)||! /^[a-f0-9]{64}$/.test(deviceId))throw new Error('Invalid Owner session.');
+ const lockPath='/school_owner_devices/'+session.user_id;
+ for(let retry=0;retry<6;retry++){
+  let lock;try{lock=await request(lockPath)}catch(e){if(e.status!==404)throw e}
+  const active=await documents('school_sessions','user_id=eq.'+encodeURIComponent(session.user_id)+'&expires_at=gt.'+encodeURIComponent(new Date().toISOString()));
+  const newest=new Map();
+  for(const doc of [...active].sort((a,b)=>String(b.data.created_at||b.data.expires_at).localeCompare(String(a.data.created_at||a.data.expires_at)))){
+   if(doc.data.device_id===deviceId||doc.data.token===currentToken)continue;
+   const device=doc.data.device_id||'legacy-'+doc.data.token;if(!newest.has(device))newest.set(device,doc);
+  }
+  if(newest.size>=3)throw Object.assign(new Error('Owner device limit reached.'),{code:'OWNER_DEVICE_LIMIT'});
+  const keep=new Set([...newest.values()].map(doc=>doc.name));
+  const name=base().replace('https://firestore.googleapis.com/v1/','');
+  const writes=[{update:{name:name+lockPath,fields:fields({user_id:session.user_id,updated_at:new Date().toISOString()})},currentDocument:lock?{updateTime:lock.updateTime}:{exists:false}},
+   {update:{name:name+'/school_sessions/'+session.token,fields:fields({...session,device_id:deviceId,created_at:new Date().toISOString()})},currentDocument:{exists:false}},
+   ...active.filter(doc=>!keep.has(doc.name)).map(doc=>({delete:doc.name}))];
+  if(writes.length>450)throw new Error('Too many old Owner sessions.');
+  try{await request(':commit','POST',{writes});return true}catch(e){if(![409,412].includes(e.status))throw e}
+ }
+ throw new Error('Owner sign-in is busy. Please retry.');
+}

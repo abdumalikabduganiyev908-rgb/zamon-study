@@ -7,7 +7,7 @@ import type {User} from './school-types';
 export class AppError extends Error {constructor(message:string,public status=400){super(message)}}
 // Shared server-only Firestore adapter; browser access is denied by rules.
 // @ts-ignore JavaScript adapter shared with setup scripts and scheduled jobs.
-import {moveSchoolUserCenter as firebaseMoveUser,db as firebaseDb,activateTeacher as firebaseActivateTeacher,claimPendingTeacher as firebaseClaimPendingTeacher,createAdministrator as firebaseCreateAdministrator,resignTemporaryAdministrator as firebaseResignTemporaryAdministrator} from '../scripts/firebase-store.mjs';
+import {createOwnerSession as firebaseOwnerSession,moveSchoolUserCenter as firebaseMoveUser,db as firebaseDb,activateTeacher as firebaseActivateTeacher,claimPendingTeacher as firebaseClaimPendingTeacher,createAdministrator as firebaseCreateAdministrator,resignTemporaryAdministrator as firebaseResignTemporaryAdministrator} from '../scripts/firebase-store.mjs';
 async function rawDb(table:string,method='GET',data?:unknown,query=''){try{return await firebaseDb(table,method,data,query)}catch(e:any){if(e.status===409)throw new AppError('This record already exists.',409);console.error('Firebase request failed',table,e.status||'configuration');throw new AppError('Firebase is not connected or the operation failed. Please contact your teacher.',503)}}
 export async function db(table:string,method='GET',data?:any,query=''):Promise<any[]|any>{
  const scope=centerContext.getStore();
@@ -44,3 +44,5 @@ export async function createAdministrator(data:any,expectedHash:string|null=null
 export async function resignTemporaryAdministrator(userId:string){try{return await firebaseResignTemporaryAdministrator(userId,centerContext.getStore()?.centerId||legacyCenter)}catch{throw new AppError("Could not leave Administrator role. Try again.",503)}}
 
 export async function moveUserCenter(userId:string,centerId:string){try{return await firebaseMoveUser(userId,centerId)}catch(e:any){console.error('Atomic centre move failed');throw new AppError(e?.message?.includes('too many records')?'This account is too large to move in one operation. No data was changed.':e?.message?.includes('already has a Centre Manager')?'That centre already has a Centre Manager.':'Could not move this account. No data was changed; please retry.',409)}}
+
+export async function ownerSession(data:{token:string;user_id:string;expires_at:string},deviceId:string,currentToken=''){try{return await firebaseOwnerSession(data,deviceId,currentToken)}catch(e:any){if(e.code==='OWNER_DEVICE_LIMIT')throw new AppError('Owner is already signed in on 3 devices. Sign out on one first. / Owner 3 ta qurilmada kirgan. Avval bittasidan hisobdan chiqing.',409);console.error('Owner session update failed',e.status||'operation');throw new AppError('Could not update Owner devices. Please try again.',503)}}

@@ -1,6 +1,6 @@
 import {selectedTracks,trackFields} from '@/lib/study-tracks-server';
 import {randomBytes,createHmac,timingSafeEqual} from 'node:crypto';
-import {AppError,activateTeacher,claimPendingTeacher,createAdministrator,db,digest,fail,hashPassword,mutation,safeUser,textValue,verifyPassword} from '@/lib/school-server';
+import {AppError,ownerSession,activateTeacher,claimPendingTeacher,createAdministrator,db,digest,fail,hashPassword,mutation,safeUser,textValue,verifyPassword} from '@/lib/school-server';
 import {centerContext,legacyCenter,schoolScope} from '@/lib/center-context';
 import {requiredLessons} from '@/lib/lessons';
 import {books} from '@/lib/catalog';
@@ -8,8 +8,19 @@ export const runtime='nodejs';
 function equal(a:string,b:string){const x=Buffer.from(a),y=Buffer.from(b);return x.length===y.length&&timingSafeEqual(x,y)}
 function secure(req:Request){return req.headers.get('x-forwarded-proto')==='https'||new URL(req.url).protocol==='https:'?'; Secure':''}
 function signature(value:string){const secret=process.env.OWNER_ACCESS_CODE||process.env.TEACHER_ACCESS_CODE;if(!secret)throw new AppError('Registration is not configured.',503);return createHmac('sha256',secret).update(value).digest('hex')}
-async function center(id:string){if(id===legacyCenter)return{id,name:'Zamon',teacher_code_hash:process.env.TEACHER_ACCESS_CODE?digest(process.env.TEACHER_ACCESS_CODE.trim()):'',administrator_code_hash:process.env.ADMINISTRATOR_ACCESS_CODE?digest(process.env.ADMINISTRATOR_ACCESS_CODE.trim()):''};const rows=await db('school_centers','GET',undefined,`id=eq.${encodeURIComponent(id)}`);if(!rows[0]||rows[0].disabled)throw new AppError('Choose an available learning centre.');return rows[0]}
-async function signIn(req:Request,r:any){const token=randomBytes(32).toString('hex');await db('school_sessions','POST',{token:digest(token),user_id:r.id,expires_at:new Date(Date.now()+30*864e5).toISOString()});return Response.json({user:safeUser(r),loggedIn:true},{headers:{'Set-Cookie':`school_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=2592000${secure(req)}`,'Cache-Control':'no-store'}})}
+async function center(id:string){if(id===legacyCenter)return{id,name:'Zamon'};const rows=await db('school_centers','GET',undefined,`id=eq.${encodeURIComponent(id)}`);if(!rows[0]||rows[0].disabled)throw new AppError('Choose an available learning centre.');return rows[0]}
+function cookie(req:Request,name:string){return req.headers.get('cookie')?.split(';').map(v=>v.trim()).find(v=>v.startsWith(name+'='))?.slice(name.length+1)||''}
+async function signIn(req:Request,r:any){
+ const token=randomBytes(32).toString('hex'),session={token:digest(token),user_id:r.id,expires_at:new Date(Date.now()+30*864e5).toISOString()};
+ const headers=new Headers({'Cache-Control':'no-store'});
+ if(r.role==='owner'){
+  const previous=cookie(req,'owner_device'),device=/^[a-f0-9]{64}$/.test(previous)?previous:randomBytes(32).toString('hex');
+  const old=cookie(req,'school_session');await ownerSession(session,digest(device),old?digest(old):'');
+  headers.append('Set-Cookie',`owner_device=${device}; HttpOnly; SameSite=Lax; Path=/; Max-Age=31536000${secure(req)}`);
+ }else await db('school_sessions','POST',session);
+ headers.append('Set-Cookie',`school_session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=2592000${secure(req)}`);
+ return Response.json({user:safeUser(r),loggedIn:true},{headers});
+}
 export async function GET(){return schoolScope(async()=>{try{const rows=await db('school_centers');return Response.json({centers:[{id:legacyCenter,name:'Zamon'},...rows.filter((r:any)=>!r.disabled&&r.id!==legacyCenter).map((r:any)=>({id:r.id,name:r.name}))]},{headers:{'Cache-Control':'no-store'}})}catch(e){return fail(e)}})}
 export async function POST(req:Request){return schoolScope(async()=>{try{
  mutation(req);const d=await req.json();
@@ -18,7 +29,7 @@ export async function POST(req:Request){return schoolScope(async()=>{try{
   if(owner&&[process.env.TEACHER_ACCESS_CODE?.trim(),process.env.ADMINISTRATOR_ACCESS_CODE?.trim()].includes(owner))throw new AppError('Owner code must differ from Teacher and Centre Manager codes.',503);
   if(owner&&owner.length>=12&&equal(digest(code),digest(owner))){let rows=await db('school_users','GET',undefined,'identity=eq.__platform_owner__');if(!rows[0]){try{rows=await db('school_users','POST',{identity:'__platform_owner__',first_name:'Owner',last_name:'',role:'owner',center_id:'platform',book:'essential',unlocked_unit:1})}catch(e){rows=await db('school_users','GET',undefined,'identity=eq.__platform_owner__');if(!rows[0])throw e}}return signIn(req,rows[0])}
   const who=digest('teacher-code:'+(req.headers.get('x-nf-client-connection-ip')||req.headers.get('x-forwarded-for')?.split(',')[0]||'local'));if(!await db('rpc/school_login_guard','POST',{who}))throw new AppError('Too many incorrect attempts. Try again in 15 minutes.',429);
-  const c=await center(textValue(d.centerId,100));let role='';const manager=process.env.ADMINISTRATOR_ACCESS_CODE?.trim(),teacher=process.env.TEACHER_ACCESS_CODE?.trim();if(manager&&manager.length>=12&&equal(digest(code),digest(manager)))role='administrator';else if(teacher&&teacher.length>=12&&equal(digest(code),digest(teacher)))role='teacher';if(!role)throw new AppError('The code is incorrect for this learning centre.',403);
+  let role='';const manager=process.env.ADMINISTRATOR_ACCESS_CODE?.trim(),teacher=process.env.TEACHER_ACCESS_CODE?.trim();if(manager&&manager.length>=12&&equal(digest(code),digest(manager)))role='administrator';else if(teacher&&teacher.length>=12&&equal(digest(code),digest(teacher)))role='teacher';if(!role)throw new AppError('The access code is incorrect. / Kirish kodi noto‘g‘ri.',403);const c=await center(textValue(d.centerId,100));
   const value=[Date.now()+600000,randomBytes(24).toString('hex'),role,c.id].join('.');return Response.json({ok:true,role},{headers:{'Set-Cookie':`teacher_registration=${value}.${signature(value)}; HttpOnly; SameSite=Strict; Path=/api/auth; Max-Age=600${secure(req)}`,'Cache-Control':'no-store'}})
  }
  const first=textValue(d.firstName,60),last=textValue(d.lastName,60),password=textValue(d.password,128);if(password.length<8)throw new AppError('Use a password with at least 8 characters.');
