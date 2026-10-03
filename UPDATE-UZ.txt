@@ -1,3 +1,7 @@
+LINGORA — NAVIGATE VA ESSENTIAL PARALLEL
+
+Ro‘yxatdan o‘tishda Navigate asosiy kurs va Essential qo‘shimcha lug‘at kitobi alohida tanlanadi. Har birida o‘z kitobi, UNITi va boshlash darsi bor. Essential uchun so‘z tanlanmaydi: yangi tanlangan UNIT birinchi so‘zidan boshlanadi, avval 3 ta so‘z ochiladi. Ikkalasini bir vaqtning o‘zida o‘qish mumkin. O‘qituvchi har birining keyingi UNITini alohida tasdiqlaydi va profil oynasida ikkalasini tahrirlay oladi. Eski hisobdagi mavjud kitob va progress saqlanadi; yetishmagan yo‘nalish 1-kitob/Beginner UNIT 1 dan ochiladi. O‘qituvchi kerakli boshlash joyini o‘zgartirishi mumkin.
+
 LINGORA — ESSENTIAL MISOLLARI
 
 Essential 2–6 so‘z ochilganda Gemini 2 ta qisqa listening va 3 ta alohida uzunroq speaking/writing gapini bir marta yaratadi. Misollar Firebasega saqlanadi va keyingi safar qayta ishlatiladi. Har bir so‘z darsi serverda saqlangan mashqlar bilan tekshiriladi; eski progress va boshlash nuqtasi o‘zgarmaydi. Kalit yoki kvota ishlamasa mavjud dars ochiladi va bu haqida yozuv chiqadi. Haqiqiy Gemini/Firebase ulanishini o‘z muhitingizda sinang.

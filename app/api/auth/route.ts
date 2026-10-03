@@ -1,3 +1,4 @@
+import {selectedTracks,trackFields} from '@/lib/study-tracks-server';
 import {randomBytes,createHmac,timingSafeEqual} from 'node:crypto';
 import {AppError,activateTeacher,claimPendingTeacher,createAdministrator,db,digest,fail,hashPassword,mutation,safeUser,textValue,verifyPassword} from '@/lib/school-server';
 import {centerContext,legacyCenter,schoolScope} from '@/lib/center-context';
@@ -36,7 +37,7 @@ export async function POST(req:Request){return schoolScope(async()=>{try{
   else if(r){if(r.role!=='teacher'||r.password_hash)throw new AppError('This name is already registered. Sign in.',409);r=await claimPendingTeacher(identity,hashPassword(password));if(!r)throw new AppError('Could not activate teacher.',409)}
   else [r]=await db('school_users','POST',{identity,login_name:name,first_name:first,last_name:last,password_hash:hashPassword(password),role,book:'essential',unlocked_unit:1,start_unit:1,start_lesson:1});
  }else if(d.action==='activateTeacher'){if(c.id!==legacyCenter)throw new AppError('Use your centre code.');r=await activateTeacher(identity,textValue(d.invite,128),hashPassword(password));if(!r)throw new AppError('Invitation is unavailable.',403)}
- else if(d.action==='register'){if(r)throw new AppError('This name is already registered. Sign in.',409);if(d.role!=='student')throw new AppError('Choose Student.',403);const book=books.find(x=>x.id===d.book),unit=Number(d.unit),step=Number(d.startLesson||1);if(!book||!Number.isInteger(unit)||unit<1||unit>book.units.length||!Number.isInteger(step)||step<1||step>requiredLessons(book.id,unit).length)throw new AppError('Choose your book, Unit and lesson.');[r]=await db('school_users','POST',{identity,login_name:name,first_name:first,last_name:last,password_hash:hashPassword(password),role:'student',book:book.id,unlocked_unit:unit,start_unit:unit,start_lesson:step})}
+ else if(d.action==='register'){if(r)throw new AppError('This name is already registered. Sign in.',409);if(d.role!=='student')throw new AppError('Choose Student.',403);const tracks=selectedTracks(d.tracks);[r]=await db('school_users','POST',{identity,login_name:name,first_name:first,last_name:last,password_hash:hashPassword(password),role:'student',...trackFields(tracks)})}
  else if(!r||!r.password_hash||!verifyPassword(password,r.password_hash))throw new AppError('The centre, name or password is incorrect.',401);
  if(r.disabled)throw new AppError('Your account is disabled.',403);if(d.role==='teacher'&&!['teacher','administrator'].includes(r.role))throw new AppError('This is not a teacher account.',403);return signIn(req,r)
 }catch(e){return fail(e)}})}
