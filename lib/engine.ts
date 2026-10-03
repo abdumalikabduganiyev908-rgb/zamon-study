@@ -1,9 +1,10 @@
 import vocabulary from './data/vocabulary.json';
+import extraVocabulary from './data/essential-vocabulary.json';
 import unitData from './data/units.json';
 import elementaryExamples from './data/elementary-examples.json';
 import writingExamples from './data/writing-examples.json';
-export type Word = typeof vocabulary[number] & {examples?:string[]};
-export const words:Word[]=vocabulary;
+export type Word = typeof vocabulary[number] & {book?:string;examples?:string[];writtenExamples?:string[]};
+export const words:Word[]=[...vocabulary,...extraVocabulary];
 export const units=unitData;
 export const dimensions=['englishToUzbek','uzbekToEnglish','listening','spelling','pronunciation','context'] as const;
 export type Dimension=typeof dimensions[number];
@@ -36,8 +37,8 @@ export function answerResult(profile:Profile,q:Question,answer:string,elapsed:nu
 export function pronounce(profile:Profile,wordId:string,score:number,manual=false){const p=structuredClone(profile);const w=p.wp[wordId]||emptyWP();w.seen=true;w.pronunciation.attempts++;w.pronunciation.lastScore=score;w.pronunciation.bestScore=Math.max(score,w.pronunciation.bestScore);if(!manual&&score>=70){w.pronunciation.completed=true;w.counts.pronunciation=Math.min(4,(w.counts.pronunciation||0)+1);w.days.pronunciation=Array.from(new Set([...(w.days.pronunciation||[]),dateKey()]));}w.lastReviewed=Date.now();w.nextReview=w.nextReview||Date.now()+864e5;p.wp[wordId]=w;return p;}
 export function similarity(a:string,b:string){a=norm(a);b=norm(b);if(!a||!b)return 0;const dp=Array.from({length:a.length+1},(_,i)=>[i]);for(let j=0;j<=b.length;j++)dp[0][j]=j;for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)dp[i][j]=Math.min(dp[i-1][j]+1,dp[i][j-1]+1,dp[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return Math.round((1-dp[a.length][b.length]/Math.max(a.length,b.length))*100);}
 export const formats=['en-uz','uz-en','choice','meaning','spelling','context','listening','dictation','true-false'] as const;
-export function sentenceExamples(w:Word):string[]{const authored=(elementaryExamples as Record<string,string[]>)[w.word];return w.examples?.length?w.examples:w.sourceType==='book'&&authored?authored:[w.example];}
-export function writtenExamples(w:Word):string[]{const authored=(writingExamples as Record<string,string[]>)[w.word];return w.sourceType==='book'&&authored?authored:sentenceExamples(w);}
+export function sentenceExamples(w:Word):string[]{const authored=(elementaryExamples as Record<string,string[]>)[w.word];return w.examples?.length?w.examples:w.sourceType==='book'&&(!w.book||w.book==='essential')&&authored?authored:[w.example];}
+export function writtenExamples(w:Word):string[]{const authored=(writingExamples as Record<string,string[]>)[w.word];return w.sourceType==='book'&&(!w.book||w.book==='essential')&&authored?authored:sentenceExamples(w);}
 export function makeQuestion(w:Word,format:string,all=words,exampleIndex?:number):Question{
  const examples=sentenceExamples(w),idx=exampleIndex===undefined?Math.floor(Math.random()*examples.length):exampleIndex%examples.length,sentence=examples[idx],written=writtenExamples(w)[idx%writtenExamples(w).length];
  let question='',correctAnswer='',acceptedAnswers:string[]=[],options:string[]|undefined,audio:string|undefined,dimension:Dimension='context',type=format,speakingText:string|undefined;

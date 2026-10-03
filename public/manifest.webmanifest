@@ -1,1 +1,1 @@
-{"name": "Zamon", "short_name": "Zamon", "lang": "en", "start_url": "/", "scope": "/", "display": "standalone", "background_color": "#f5f6fb", "theme_color": "#2563eb", "icons": [{"src": "/zamon-logo.png", "sizes": "1254x1254", "type": "image/png", "purpose": "any"}]}
+{"name": "Lingora", "short_name": "Lingora", "lang": "en", "start_url": "/", "scope": "/", "display": "standalone", "background_color": "#f5f6fb", "theme_color": "#2563eb", "icons": [{"src": "/lingora-logo.png", "sizes": "1280x1280", "type": "image/png", "purpose": "any"}]}

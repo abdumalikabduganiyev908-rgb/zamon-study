@@ -25,7 +25,7 @@ const sha=x=>createHash('sha256').update(x).digest('hex');
 export function pack(v){if(v===null)return {nullValue:null};if(typeof v==='string')return {stringValue:v};if(typeof v==='boolean')return {booleanValue:v};if(typeof v==='number')return Number.isInteger(v)?{integerValue:String(v)}:{doubleValue:v};if(Array.isArray(v))return {arrayValue:{values:v.map(pack)}};return {mapValue:{fields:Object.fromEntries(Object.entries(v).filter(([,v])=>v!==undefined).map(([k,v])=>[k,pack(v)]))}}}
 export function unpack(v){if('nullValue'in v)return null;if('stringValue'in v)return v.stringValue;if('booleanValue'in v)return v.booleanValue;if('integerValue'in v)return Number(v.integerValue);if('doubleValue'in v)return v.doubleValue;if('arrayValue'in v)return (v.arrayValue.values||[]).map(unpack);return Object.fromEntries(Object.entries(v.mapValue?.fields||{}).map(([k,v])=>[k,unpack(v)]))}
 const fields=o=>pack(o).mapValue.fields;
-const row=d=>Object.fromEntries(Object.entries(d.fields||{}).map(([k,v])=>[k,unpack(v)]));
+const row=d=>({id:d.name.split('/').pop(),...Object.fromEntries(Object.entries(d.fields||{}).map(([k,v])=>[k,unpack(v)]))});
 async function request(path,method='GET',body){const r=await fetch(path.startsWith('https:')?path:base()+path,{method,headers:{Authorization:'Bearer '+await accessToken(),'Content-Type':'application/json'},body:body===undefined?undefined:JSON.stringify(body),cache:'no-store'});if(!r.ok){const e=new Error('Firebase database request failed (HTTP '+r.status+').');e.status=r.status;throw e}return r.status===204?{}:r.json()}
 function key(table,d){switch(table){case 'school_users':return sha(d.identity);case 'school_sessions':return d.token;case 'school_reads':return sha(d.user_id+'|'+d.assignment_id);case 'school_progress':return sha([d.user_id,d.book,d.unit,d.lesson].join('|'));case 'school_notifications':return sha(d.user_id+'|'+d.day);case 'school_push':return sha(d.endpoint);default:return d.id||randomUUID()}}
 async function documents(table,query=''){
@@ -33,9 +33,10 @@ async function documents(table,query=''){
  const single=filters.find(([,v])=>v.startsWith('eq.'));
  let docs;
  if(single){const [field,value]=single;let val=value.slice(3);if(['unit','unlocked_unit','start_unit','start_lesson'].includes(field))val=Number(val);
- const result=await request(':runQuery','POST',{structuredQuery:{from:[{collectionId:table}],where:{fieldFilter:{field:{fieldPath:field},op:'EQUAL',value:pack(val)}}}});docs=result.filter(x=>x.document).map(x=>x.document);
+ if(field==='id'){try{docs=[await request('/'+table+'/'+encodeURIComponent(val))]}catch(e){if(e.status!==404)throw e;docs=[]}}else{ const result=await request(':runQuery','POST',{structuredQuery:{from:[{collectionId:table}],where:{fieldFilter:{field:{fieldPath:field},op:'EQUAL',value:pack(val)}}}});docs=result.filter(x=>x.document).map(x=>x.document);}
+
  }else{docs=[];let next='';do{const result=await request('/'+table+'?pageSize=1000'+(next?'&pageToken='+encodeURIComponent(next):''));docs.push(...result.documents||[]);next=result.nextPageToken||''}while(next)}
- let found=docs.map(d=>({name:d.name,data:row(d)})).filter(({data})=>filters.every(([k,v])=>{const i=v.indexOf('.'),op=v.slice(0,i),value=v.slice(i+1);return op==='eq'?String(data[k])===value:op==='gt'?data[k]>value:op==='lt'?data[k]<value:false}));
+ let found=docs.map(d=>({name:d.name,data:row(d),updateTime:d.updateTime})).filter(({data})=>filters.every(([k,v])=>{const i=v.indexOf('.'),op=v.slice(0,i),value=v.slice(i+1);return op==='eq'?String(data[k])===value:op==='gt'?data[k]>value:op==='lt'?data[k]<value:false}));
  const order=params.get('order');if(order){const [f,dir]=order.split('.');found.sort((a,b)=>a.data[f]===b.data[f]?0:(a.data[f]>b.data[f]?1:-1)*(dir==='desc'?-1:1))}
  const limit=Number(params.get('limit'));if(limit>0)found=found.slice(0,limit);return found;
 }
@@ -109,7 +110,7 @@ export async function createAdministrator(data,expectedHash=null){
  try{doc=await request(name)}catch(e){if(e.status!==404)throw e}
  if(doc){const old=row(doc);if(old.role!=='admin'||!expectedHash||old.password_hash!==expectedHash)return null}
  const user=doc?{...row(doc),role:'administrator'}:{...data,id,role:'administrator',created_at:new Date().toISOString(),group_id:null,start_unit:1,start_lesson:1,billing:{status:'paid',paidAt:tashkentDate()},disabled:false,settings:{language:'en',style:'classic',layout:'cards',accent:'',audioRate:.65}};
- try{await request(':commit','POST',{writes:[{update:{name:name.replace('https://firestore.googleapis.com/v1/',''),fields:fields(user)},currentDocument:doc?{updateTime:doc.updateTime}:{exists:false}},{update:{name:base().replace('https://firestore.googleapis.com/v1/','')+'/school_administrator_lock/primary',fields:fields({user_id:id})},currentDocument:{exists:false}}]})}catch(e){if([409,412].includes(e.status))return null;throw e}
+ try{await request(':commit','POST',{writes:[{update:{name:name.replace('https://firestore.googleapis.com/v1/',''),fields:fields(user)},currentDocument:doc?{updateTime:doc.updateTime}:{exists:false}},{update:{name:base().replace('https://firestore.googleapis.com/v1/','')+'/school_administrator_lock/'+(data.center_id&&data.center_id!=='zamon'?sha(data.center_id):'primary'),fields:fields({user_id:id})},currentDocument:{exists:false}}]})}catch(e){if([409,412].includes(e.status))return null;throw e}
  return user;
 }
 
@@ -125,11 +126,31 @@ export async function temporaryAdministrator(identity){
  try{await request(':commit','POST',{writes:[{update:{name:doc.name,fields:fields(updated)},currentDocument:{updateTime:doc.updateTime}},{update:{name:lockName.replace('https://firestore.googleapis.com/v1/',''),fields:fields({user_id:user.id,temporary:true})},currentDocument:{exists:false}}]})}catch(e){if([409,412].includes(e.status))throw new Error('The account changed or an Administrator was created. Try again.');throw e}
  return updated;
 }
-export async function resignTemporaryAdministrator(userId){
+export async function resignTemporaryAdministrator(userId,centerId='zamon'){
  if(!/^[a-zA-Z0-9_-]{1,128}$/.test(userId))return false;
- let doc,lock;try{doc=await request(base()+'/school_users/'+userId);lock=await request(base()+'/school_administrator_lock/primary')}catch(e){if(e.status===404)return false;throw e}
+ let doc,lock;try{doc=await request(base()+'/school_users/'+userId);lock=await request(base()+'/school_administrator_lock/'+(centerId==='zamon'?'primary':sha(centerId)))}catch(e){if(e.status===404)return false;throw e}
  const user=row(doc),owner=row(lock);if(user.role!=='administrator'||!user.temporary_administrator||owner.user_id!==userId||!owner.temporary)return false;
  const updated={...user,role:'student',temporary_administrator:false};
  try{await request(':commit','POST',{writes:[{update:{name:doc.name,fields:fields(updated)},currentDocument:{updateTime:doc.updateTime}},{delete:lock.name,currentDocument:{updateTime:lock.updateTime}}]})}catch(e){if([409,412].includes(e.status))return false;throw e}
  return true;
+}
+
+// Owner-only caller: move an account and its private records as one atomic commit.
+export async function moveSchoolUserCenter(userId,centerId){
+ if(!/^[a-zA-Z0-9_-]{1,128}$/.test(userId)||!/^[-a-zA-Z0-9]{1,100}$/.test(centerId))throw new Error('Invalid account or centre.');
+ const doc=await request('/school_users/'+userId),user=row(doc),oldCenter=user.center_id||'zamon';if(user.role==='owner')throw new Error('Owner cannot be moved.');if(oldCenter===centerId)return true;
+ const writes=[],update=(d,v)=>writes.push({update:{name:d.name,fields:fields(v)},currentDocument:{updateTime:d.updateTime}});
+ const loginName=(user.first_name+' '+user.last_name).normalize('NFKC').toLowerCase().replace(/\s+/g,' ').replace(/[‘’ʻʼ]/g,"'");
+ update(doc,{...user,center_id:centerId,group_id:null,login_name:loginName});
+ for(const table of ['school_attempts','school_progress','school_reads','school_notes','school_questions','school_bookmarks','school_inbox','school_push','school_learning_sessions','school_word_sessions'])for(const item of await documents(table,'user_id=eq.'+encodeURIComponent(userId)))writes.push({update:{name:item.name,fields:fields({...item.data,center_id:centerId,...(table==='school_questions'?{group_id:null}:{})})},currentDocument:{updateTime:item.updateTime}});
+ for(const item of await documents('school_groups','teacher_id=eq.'+encodeURIComponent(userId)))writes.push({update:{name:item.name,fields:fields({...item.data,teacher_id:null})},currentDocument:{updateTime:item.updateTime}});
+ for(const item of await documents('school_sessions','user_id=eq.'+encodeURIComponent(userId)))writes.push({delete:item.name,currentDocument:{exists:true}});
+ if(user.role==='administrator'){
+  const lockId=id=>id==='zamon'?'primary':sha(id),nextName=base()+'/school_administrator_lock/'+lockId(centerId);let next;
+  try{next=await request(nextName)}catch(e){if(e.status!==404)throw e}if(next&&row(next).user_id!==userId)throw new Error('This centre already has a Centre Manager.');
+  if(!next)writes.push({update:{name:nextName.replace('https://firestore.googleapis.com/v1/',''),fields:fields({user_id:userId,center_id:centerId,...(user.temporary_administrator?{temporary:true}:{})})},currentDocument:{exists:false}});
+  let previous;try{previous=await request('/school_administrator_lock/'+lockId(oldCenter))}catch(e){if(e.status!==404)throw e}if(previous&&row(previous).user_id===userId)writes.push({delete:previous.name,currentDocument:{updateTime:previous.updateTime}});
+ }
+ if(writes.length>450)throw new Error('This account has too many records for one atomic move. No data was changed.');
+ await request(':commit','POST',{writes});return true;
 }

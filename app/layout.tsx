@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: {default:"Zamon",template:"%s | Zamon"},
+  title: {default:"Lingora",template:"%s | Lingora"},
   description: "Learn English with Essential and Navigate: vocabulary, listening, speaking and teacher-guided lessons.",
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: "/zamon-logo.png",
-    shortcut: "/zamon-logo.png",
-    apple: "/zamon-logo.png",
+    icon: "/lingora-logo.png",
+    shortcut: "/lingora-logo.png",
+    apple: "/lingora-logo.png",
   },
 };
 

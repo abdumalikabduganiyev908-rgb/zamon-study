@@ -13,7 +13,8 @@
     "setup:accounts": "node --env-file=.env.local scripts/setup-accounts.mjs",
     "upload:audio": "node --env-file=.env.local scripts/upload-audio.mjs",
     "setup:push": "node scripts/generate-vapid.mjs",
-    "setup:administrator": "node --env-file=.env.local scripts/setup-administrator.mjs"
+    "setup:administrator": "node --env-file=.env.local scripts/setup-administrator.mjs",
+    "setup:owner": "node scripts/setup-owner.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

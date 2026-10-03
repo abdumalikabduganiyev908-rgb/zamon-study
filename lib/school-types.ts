@@ -1,6 +1,6 @@
-export type Role='student'|'teacher'|'admin'|'administrator';
-export type User={id:string;firstName:string;lastName:string;role:Role;groupId:string|null;book:string;unlockedUnit:number;startUnit:number;startLesson:number;createdAt:string;disabled?:boolean;temporaryAdministrator?:boolean;payment:{status:string;paidAt:string|null;dueAt:string|null;unpaidAt:string|null;blockAt:string|null;blocked:boolean};settings:{language:string;style:string;layout:string;accent:string;audioRate:number}};
-export type Group={id:string;name:string;days:number[];time:string;reminderTime:string};
+export type Role='student'|'teacher'|'admin'|'administrator'|'owner';
+export type User={id:string;centerId:string;firstName:string;lastName:string;role:Role;groupId:string|null;book:string;unlockedUnit:number;startUnit:number;startLesson:number;createdAt:string;disabled?:boolean;temporaryAdministrator?:boolean;payment:{status:string;paidAt:string|null;dueAt:string|null;unpaidAt:string|null;blockAt:string|null;blocked:boolean};settings:{language:string;style:string;layout:string;accent:string;audioRate:number}};
+export type Group={teacherId?:string;id:string;name:string;days:number[];time:string;reminderTime:string};
 export type Assignment={id:string;title:string;text:string;groups:string[];extra:boolean;createdAt:string};
 export type Event={id:string;title:string;at:string;groups:string[]};
 export type Attempt={id:string;userId:string;book:string;unit:number;lesson:string;answers:{question:string;answer:string;correct:string;ok:boolean}[];score:number;total:number;seconds:number;completed:boolean;createdAt:string;grade:number|null;comment:string};

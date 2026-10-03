@@ -126,7 +126,7 @@ pnpm setup:push
 
 VAPID_PRIVATE_KEY — serverning push bildirishnomalarni sayt nomidan tasdiqlab yuborish uchun maxfiy kaliti. NEXT_PUBLIC_VAPID_PUBLIC_KEY — brauzer obunasiga beriladigan ochiq kalit. Bu juftlikni faqat hali kalitlaringiz bo‘lmasa yarating; mavjud juftlikni saqlang.
 
-Chiqqan NEXT_PUBLIC_VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT qiymatlarini .env.local va Netlify environment variables’ga yozing. VAPID_SUBJECT haqiqiy https://sizning-saytingiz.netlify.app manzili bo‘lsin. Private key sir saqlanadi. Kalit almashsa foydalanuvchilar ruxsatni qayta ulashi kerak.
+pnpm setup:push mavjud kalitlarni saqlaydi; hali juftlik bo‘lmasa yaratib .env.localga yozadi. .env.local ichidagi NEXT_PUBLIC_VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT qiymatlarini Netlify environment variables’ga ko‘chiring. VAPID_SUBJECT haqiqiy https://sizning-saytingiz.netlify.app manzili bo‘lsin. Private key sir saqlanadi. Kalit almashsa foydalanuvchilar ruxsatni qayta ulashi kerak.
 
 Yuqori o‘ngda sozlamalar yonidagi qo‘ng‘iroq belgisi baho/izoh, guruhga berilgan vazifa, event va kunlik dars eslatmalarini ko‘rsatadi. O‘qilmaganlar soni belgida ko‘rinadi. Baho va vazifa xabarlari serverda darhol yoziladi; brauzer ochiq bo‘lsa har 60 soniyada yoki oynaga qaytganda yangilanadi. Kunlik eslatma lokal ishlashda ham saytga kirilganda bir marta inboxga yoziladi. Fon push uchun VAPID va foydalanuvchi ruxsati kerak.
 
@@ -172,3 +172,9 @@ Bu yangilanishda haqiqiy Firebase loyihasiga, telefon pushiga yoki mikrofoniga u
 Firestore adapteri avval bitta tenglik filtri bilan oladi, qolgan filtrlash/sortni serverda bajaradi. O‘qituvchi statistikasi barcha attemptlarni o‘qiydi; katta sinflarda foydalanish va read xarajatlarini kuzating. Login limitlari 15 daqiqada 15 urinish. Eski session/notification hujjatlari avtomatik o‘chirilmaydi; Firestore TTL/arxiv siyosati keyingi boshqaruv ishidir.
 
 Yangi sinovlar: noto‘g‘ri/to‘g‘ri kod, cookie imzosini o‘zgartirish, ikki rol kodi, kodsiz hisob yaratishni rad etish, yagona Administratorning atomik yaratilishi, mavjud parollar himoyasi, Toshkent yarim tuni, 7 kunlik blok, oy oxiri/kabisa, to‘lov/rol ruxsatlari, inbox maxfiyligi va 3360 Navigate mashqining tarkibi.
+
+
+ESSENTIAL 2–6 MISOLLARI
+Har so‘zning 5 ta yangi misoli birinchi ochilganda serverdagi GEMINI_API_KEY orqali yaratiladi: 2 ta 4–9 so‘zli listening, 3 ta 10–20 so‘zli speaking/writing. Boshqa so‘zlar va grammatika Beginner uchun sodda bo‘lishi so‘raladi. Beshta gap takrorlanmasligi, target so‘z mavjudligi va uzunligi tekshiriladi. Natija school_lesson_content ichida bir marta saqlanadi. Kalit yoki kvota ishlamasa mavjud dars saqlanadi, yozuv orqali xabar beriladi.
+Dars mashqlari school_word_sessions ichida o‘quvchiga bog‘langan nusxada saqlanadi. Yangi misollar keyinchalik paydo bo‘lsa ham yarim tugagan darsning savollari o‘zgarmaydi. Nusxa 7 kun amal qiladi. Progress va oldingi foydalanuvchi identifikatorlari o‘zgartirilmagan. Markaz ko‘chirilganda ushbu dars nusxalari ham ko‘chadi.
+Mahalliy sinov: pnpm dev → Essential Book 2 → Unit 1 → anxious. Birinchi tayyorlashdan keyin 9 ta mashq chiqishini, ikki listening va uch boshqa speaking/writing gapini, chiqib qayta kirganda oxirgi joy saqlanishini tekshiring. Haqiqiy Gemini, Firebase va telefon push xabarlari shu muhitda tekshiriladi.

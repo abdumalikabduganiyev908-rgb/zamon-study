@@ -1,57 +1,56 @@
-TAB NOMI VA LOGO
-Brauzer tabida Zamon nomi va yangi ZAMON LEARNING CENTRE rasmi. Fayllarni ko‘chirgach dev serverni qayta ishga tushiring. Netlify uchun git add . → commit → push, deploy tugagach Ctrl+Shift+R bosing. Eski sayt havolasi o‘z-o‘zidan yangilanmaydi; yangi Zamon deploy manzilini oching.
+LINGORA — ESSENTIAL MISOLLARI
 
-VAQTINCHA ADMINISTRATOR — QO‘SHIMCHA YANGILANISH
+Essential 2–6 so‘z ochilganda Gemini 2 ta qisqa listening va 3 ta alohida uzunroq speaking/writing gapini bir marta yaratadi. Misollar Firebasega saqlanadi va keyingi safar qayta ishlatiladi. Har bir so‘z darsi serverda saqlangan mashqlar bilan tekshiriladi; eski progress va boshlash nuqtasi o‘zgarmaydi. Kalit yoki kvota ishlamasa mavjud dars ochiladi va bu haqida yozuv chiqadi. Haqiqiy Gemini/Firebase ulanishini o‘z muhitingizda sinang.
 
-ZIP ichidagilarni mavjud Zamon loyihasiga ko‘chiring va Replace bosing.
-.env.local, firebase-service-account.json va media/audio papkangizni saqlang.
+LINGORA — JOYLASHUV, SOZLAMALAR VA BOG‘LANISH
 
-Terminalda:
-pnpm setup:administrator
+Ovoz tezligi ostiga 5–6-darajada ovoz eng tushunarli eshitilishi haqida inglizcha va o‘zbekcha yozuv qo‘shildi. Markaz qo‘shish maydoni, tugmalar va kartalar orasiga oraliqlar qo‘shildi. Telefon ekranida kartalar bir ustunga joylashadi. Stil faqat hisobga kirishda saqlangan tanlovdan olinadi va Settings orqali o‘zgartiriladi; avtomatik yangilanishlar stilni almashtirmaydi. Settings ichida Contact / Bog‘lanish va @abduyx15870 havolasi, +998 94 331 87 07 qo‘ng‘iroq havolasi bor. Ilovani o‘rnatgach Settings → Enable notifications orqali ruxsat bering. Serverdagi VAPID kalitlari ham sozlangan bo‘lishi kerak. pnpm setup:push buyrug‘i mavjud kalitlarni saqlab, yetishmasa yangi juftlik yaratadi va .env.localga yozadi. NEXT_PUBLIC_VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT qatorlarini Netlify environment variablesga ko‘chiring, keyin redeploy qiling. Maxfiy kalitni GitHubga yubormang.
 
-Mavjud hisobingizning ism va familiyasini yozing. Yangi hisob yaratilmaydi, parol va Unit/progress saqlanadi. Keyin pnpm dev ni qayta ishga tushiring va mavjud parol bilan Sign in qiling. Settings → Leave Administrator role sizni o‘quvchiga qaytaradi. Agar boshqa Administrator allaqachon yaratilgan bo‘lsa, buyruq uning huquqini o‘zgartirmaydi va rad etiladi.
+LINGORA — ESSENTIAL 1–6, NAVIGATE VA MARKAZLAR
 
-Push kalitlaringiz hali yo‘q bo‘lsa:
-pnpm setup:push
+Lingora logosi sayt tepasiga, kirish oynasiga va ilova belgisiga qo‘shildi. Essential/Navigate kartalarining asosiy ko‘rinishi komponentning o‘zida bor; eski CSS kartalarni buzmaydi. app/globals.css faylini ham Replace qiling.
+Books bo‘limida Essential va Navigate degan ikki karta bor. Essential ichida 1–6-kitoblar, har birida 30 ta Unit va 600 ta so‘z bor. 2–6-kitoblar yuborilgan PDFlar asosida qo‘shildi; 6-kitobning o‘zbekcha ma’nolari sayt uchun qo‘shildi. Shikastlangan ayrim misollar original yangi gaplar bilan almashtirildi.
+1-kitobning mavjud identifikatorlari o‘zgartirilmagan. Eski progress saqlanadi. Yangi kitoblar alohida identifikator bilan saqlanadi. Har kitobda avval 3 ta so‘z ochiq; tugatilgan so‘zlar soniga qarab navbatdagisi ochiladi. Unit testi va faqat qiynalgan oldingi so‘zlarni qaytarish har kitobning o‘zida ishlaydi.
+Essential Listening/Videos ro‘yxatida yo‘q. Tinglash so‘z mashqlari ichida saytning ovoz xizmati orqali ishlaydi; bu yangilanishda Essential uchun alohida yozib olingan MP3 fayllar kiritilmagan.
 
-Chiqqan NEXT_PUBLIC_VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT qatorlarini .env.local va Netlify environment variables’ga yozing. VAPID_SUBJECT haqiqiy saytingizning HTTPS manzili bo‘lsin. Private keyni GitHubga yoki boshqalarga yubormang. Mavjud VAPID kalitlaringiz bo‘lsa shu juftlikni saqlang.
 
-Bu ZIP oldingi yangilanishlarni ham o‘z ichiga oladi.
+Markaz faqat dastlabki ro‘yxatdan o‘tishda tanlanadi. Keyingi kirishda ism, familiya va parol yetarli. O‘qituvchi va Administrator uchun mavjud TEACHER_ACCESS_CODE hamda ADMINISTRATOR_ACCESS_CODE barcha markazlarda bir xil qoladi.
 
-ZAMON YANGILANISHI — 3-oktabr 2026
+Owner kodini o‘zingiz tanlasangiz, .env.local ichida bitta OWNER_ACCESS_CODE=... qatori bo‘lsin. Kamida 12 belgi kerak. Eski OWNER_ACCESS_CODE qatorini yangi kod bilan almashtiring; TEACHER_ACCESS_CODE va ADMINISTRATOR_ACCESS_CODE o‘z holicha qolsin. Serverni qayta ishga tushiring.
 
-1. pnpm dev ishlayotgan terminalda Ctrl+C bosing.
-2. ZIP ichidagi papka va fayllarni mavjud Zamon loyiha papkangizga ko‘chiring. Replace bosing.
-   .env.local, firebase-service-account.json, .git va media/audio papkangizni saqlang. Bu ZIP audiolarni qayta yuklatmaydi.
-3. .env.local oxiriga ikkita yangi qator qo‘shing:
+Tasodifiy Owner kodi yaratishning ixtiyoriy yo‘li:
+1. Terminalda node scripts/setup-owner.mjs buyrug‘ini bajaring.
+2. Chiqqan OWNER_ACCESS_CODE qatorini .env.local fayliga va deploy qilganda Netlify environment variablesga qo‘shing. Bu maxfiy kod; GitHubga yubormang.
+3. Serverni qayta ishga tushiring. Teacher → Enter code joyiga shu kodni kiriting. Owner profili avtomatik yaratiladi va boshqa ma’lumot so‘ralmaydi. To‘g‘ri kod bilan kirishlar soni cheklanmaydi.
+4. Learning centres bo‘limidan markaz qo‘shing yoki tanlang. Hamma markazlarni ko‘rish mumkin; guruh va vazifa yaratish uchun bir markazni tanlang.
+5. Faqat Owner o‘quvchi yoki xodim profilidagi markazni almashtira oladi. Uning shaxsiy progressi va qaydlari birga ko‘chadi, eski guruhdan chiqadi, qayta kirishi kerak bo‘ladi.
 
-TEACHER_ACCESS_CODE=ozingiz_tanlagan_maxfiy_oqituvchi_kodi
-ADMINISTRATOR_ACCESS_CODE=ozingiz_tanlagan_boshqa_maxfiy_kod
+Eski hisoblar Zamon markazida qoladi. Markazlar ma’lumotlari serverda ajratilgan. Inglizchada Centre Manager, o‘zbekchada Administrator yoziladi.
 
-   Namuna qiymatlarini haqiqiy kodlaringizga almashtiring. Kodlar bir-biridan farqli, kamida 12 belgili bo‘lsin. Teacher kodi o‘qituvchilarga beriladi; Administrator kodini faqat o‘zingizda saqlang.
-4. pnpm dev orqali qayta ishga tushiring.
-5. Teacher → kod kiriting → ism, familiya va parol qo‘ying.
-   Administrator kodi bilan bitta Administrator ochiladi.
-   Hozirgi vaqtincha Adminingizni Administrator qilish uchun uning mavjud ism-familiyasi va mavjud parolini kiriting.
-   Mavjud o‘qituvchi Already registered? Sign in orqali kiradi.
-6. Netlify Environment variables’ga ayni ikki kodni kiriting va qayta deploy qiling.
-   Fon bildirishnomalari uchun VAPID sozlamalari va brauzer ruxsati ham kerak.
+OLDINGI IMKONIYATLAR
 
-YANGILIKLAR
-- Listening va Videosda faqat Navigate. Essential audio so‘z darslarida.
-- Har bir Navigate qismida 12 ta mashq: 3 listening, 3 speaking, 2 gapni to‘ldirish, 2 tartiblash, 1 tanlov, 1 erkin yozish.
-- 70 Unit uchun 420 yangi darajaga mos gap. Listening/speaking bir qismda boshqa gaplardan foydalanadi.
-- Speakingda yozish maydoni yo‘q; mikrofon va Chrome/Edge ovozni tanishi kerak.
-- O‘ng yuqorida bildirishnomalar: baho, izoh, vazifa, dars eslatmalari; o‘qilgan deb belgilash va o‘qilmaganlar soni.
-- Administrator → Teachers: o‘qituvchini bloklash/ochish, parolini yangilash.
-- Administrator → Payments: o‘quvchini familiya bo‘yicha qidirish; ism va guruh ham ko‘rinadi.
-- Boshida hamma o‘quvchilar To‘langan. To‘lov sanasi keyingi oyning shu sanasigacha amal qiladi.
-- To‘lanmaganidan 7 kun keyin server dars/audio/AI xizmatlariga kirishni yopadi. To‘langan qilish darhol ochadi.
-- Oy oxiri: 31-yanvar → 28/29-fevral. Sana Toshkent bo‘yicha.
-- Mavjud natijalar va hisoblar o‘chirilmaydi.
+1. ZIP ichidagilarni mavjud Zamon loyiha papkangizga ko‘chiring va Replace bosing.
+.env.local, firebase-service-account.json, .git va media/audio fayllaringizni saqlang.
+2. pnpm build buyrug‘ini bajaring. Keyin o‘zgargan kodlarni GitHubga yuboring.
+3. Netlifyda mavjud GEMINI_API_KEY saqlansin. Kalitni brauzer kodiga yozmang.
+4. Eski guruhlar uchun Administrator → Groups bo‘limida tegishli o‘qituvchini tanlang.
 
-VIDEO YUKLAB OLISH
-YouTube videolari tomosha qilinadi. MP4 fayllari hali berilmaganligi uchun video yuklash tugmasi qo‘shilmadi. Fayllar berilgach ulanadi.
+Navigate darslari oldingi oddiy mashqlar ko‘rinishiga qaytarildi. Bosqichli AI dars va avtomatik tushuntirish olib tashlandi. Mashqlar kalitsiz ham ochiladi. Har qismda 16 ta mashq: qisqa listening, uzunroq speaking, gap to‘ldirish, tartiblash, tanlov va erkin yozish. Dars boshida tayyor javoblar ko‘rsatilmaydi.
+Unit testlari: tarjimani tanlash, harflardan so‘z va so‘zlardan gap yig‘ish, dictation, tinish belgilari.
+Essentialda faqat avval qiynalgan so‘zlar qaytadi. Navigateda avvalgi qiyin mashqlar faqat 5, 10, 15… Unit testlarida qaytadi.
+Ovoz sozlamalarida 10 daraja bor: 1 eng sekin (0.5×), 10 eng tez (1.2×). Mashq ovozi tanlangan tezlikda o‘qiladi. Settings → Ovozni sinash orqali eshitib ko‘ring.
+Enter javobni tekshiradi; tekshirilgandan keyin Enter keyingi mashqqa o‘tkazadi. Shift+Enter yangi qator yozadi.
+Lug‘at daftari, o‘qituvchiga savol va oxirgi joydan davom etish saqlangan. Darsdan qaytganda oxirgi joy yangilanadi.
+Lug‘at daftari tepasida tarjimon va Ko‘proq tugmasi bor. O‘quvchi qaydlarini uning guruh o‘qituvchisi va Administrator ko‘radi.
+Dars ostida o‘qituvchiga savol yuborish va javobni ko‘rish mumkin.
+Davom etish oxirgi darsdagi joyni saqlaydi. Keyingi Unitga o‘tishni o‘qituvchi tasdiqlaydi.
 
-SINOV
-Next.js build va TypeScript o‘tdi. Kod/rol, cookie, atomik yagona Administrator, to‘lov sanalari, ruxsatlar, inbox maxfiyligi va 3360 Navigate mashqi tekshirildi. Haqiqiy telefon pushi va mikrofon bu muhitda tekshirilmagan.
+Mavjud hisoblar va progress o‘chirilmaydi. Yangi server kolleksiyalari avtomatik yaratiladi; Firestore Rulesni almashtirish shart emas.
+Navigate mashqlari saytning mavjud mavzu va grammatika bankidan olinadi. Unit testidagi qo‘shimcha AI materiallar uchun Gemini kaliti ishlatiladi.
+Tushuntirishlar har topshiriqda o‘zbekcha yozuvda chiqadi. Listen tugmalari qaytarildi. Topshiriqlarda bitta umumiy ovoz xizmati ishlatiladi. Avtomatik o‘zbekcha tushuntirish o‘chirilgan. .env.local ichida GEMINI_MODEL=gemini-3.5-flash-lite yozib, serverni qayta ishga tushiring. Ovoz so‘rovi 8 soniyadan oshsa bekor qilinadi; eski so‘rovlar to‘xtatiladi va tayyor audio qayta ishlatiladi.
+AI ovozi uchun Gemini TTS ishlatiladi. U mavjud bo‘lmasa brauzer ovozi bilan davom etadi va bu ekranda ko‘rsatiladi.
+Mikrofon uchun Chrome/Edge, HTTPS va saytga microphone ruxsati kerak.
+Cloudflare audio manzili: https://zamon-audio.pages.dev/
+
+Tekshiruv: Next.js production build, TypeScript, ruxsatlar, test javoblari va tanlab takrorlash o‘tdi.
+Haqiqiy Gemini kaliti, Firebase serveri va telefon mikrofoni bilan jonli sinov sizning muhitda bajariladi.
